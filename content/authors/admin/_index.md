@@ -23,29 +23,29 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Researcher in Numerical Relativity and Gravitational Waves
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
+  - name: The Pennsylvania State University
     url: https://ai.meta.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:vaishakprasad@psu.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/vaishakp
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/vaishakp
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/vaishakprasad
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=vaishakprasad
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Large Language Models
@@ -53,7 +53,7 @@ interests:
   - Reinforcement Learning
   - AI Ethics
 
-education:
+past-light-cone:
   - area: PhD in Astrophysics 
     institution: IUCAA, Pune, India
     date_start: 2015-09-01
