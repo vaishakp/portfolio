@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Researcher in Numerical Relativity and Gravitational Waves
+role: Astrophysicist and  Numerical Relativist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: The Pennsylvania State University
-    url: https://ai.meta.com/
+    url: https://igc.psu.edu/people/bio/vbp5193/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,10 +48,11 @@ profiles:
 #    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Strong Gravity
+  - Astrophysics
+  - Numerical Relativity
+  - Gravitational Wave Data Analysis
+  - High Performance Computing
 
 past-light-cone:
   - area: PhD in Astrophysics 
