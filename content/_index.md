@@ -7,6 +7,13 @@ type: landing
 design:
   # Default section spacing
   spacing: '6rem'
+  background:
+    image:
+        filename: 'rubin.jpg'
+        filters:
+            darken: 0.7
+    fit: cover
+    focal_point: center
 
 sections:
   - block: resume-biography-3

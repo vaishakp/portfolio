@@ -5,4 +5,4 @@ template:
   name: "Academic CV"
 params:
   design:
-    customSCSS: ["assets/scss/custom.scss"]
+    customCSS: ["scss/custom.scss"]
