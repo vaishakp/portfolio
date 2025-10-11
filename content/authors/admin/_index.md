@@ -66,8 +66,8 @@ education:
   - area: Int. M.Sc.(hons) Physics
     institution: Birla Institute of Technology and Science, Pilani - Hyderabad Campus
     date_start: 2012-08-01
-    date_end: 2016-07-30
-
+    date_end: 2016-01-30
+    summary: |
       Specialized in Causal Structure of Space times and Black Hole Physics
       
 work:
