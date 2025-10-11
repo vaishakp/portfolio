@@ -3,3 +3,6 @@ build:
 template:
   id: "academic-cv"
   name: "Academic CV"
+params:
+  design:
+    customSCSS: ["assets/scss/custom.scss"]
