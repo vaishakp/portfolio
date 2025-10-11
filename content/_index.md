@@ -34,9 +34,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a researcher working to unravel the mysteries of the universe by listening to the cosmos - i.e. using gravitational waves. 
+        Black holes are one of the most mathematically beautiful, pure and symmetrical objects ever known to mankind. Yet they pose some of the biggest unsolved puzzles. As though isolated black holes are not sufficiently interesting, I attempt to study the boundaries of the black holes regions in highly dynamical situations - like those in binary mergers - and learn about their causally hidden properties using gravitational radiation.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        The origin and astrophysical distribution of black holes, the methods used to infer the source properties, and the use of computational tools to intelligently and efficiently dismantle the deepest workings of the cosmos have captivated me in this journey.
 
         Please reach out to collaborate 😃
     design:
