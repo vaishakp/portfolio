@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Dr. Vaishak Prasad
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Vaishak
+last_name: Prasad
 
 # Pronouns (optional)
 pronouns: he/him
@@ -54,55 +54,49 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD in Astrophysics 
+    institution: IUCAA, Pune, India
     date_start: 2015-09-01
     date_end: 2019-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Thesis on _Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation_. Supervised by Prof. Sukanta Bose.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+  - area: Int. M.Sc.(hons) Physics
+    institution: Birla Institute of Technology and Science, Pilani - Hyderabad Campus
+    date_start: 2012-08-01
+    date_end: 2016-07-31
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
+      Specialized in Causal Structure of Space times and Black Hole Physics
+      
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Eberly Postdoctoral Scholar
+    company_name: The Pennsylvania State University
+    company_url: 'https://igc.psu.edu/people/bio/vbp5193/'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Leading research on Science Traceability Matrix - Testing General Relativity for Cosmic Explorer, Gravitational Wave data analysis, Dynamical Horizons and Numerical Relativity.
+  - position: Postdoctoral Researcher
+    company_name: International Centre for Theoretical Sciences - Tata Institute of Fundamental Research
+    company_url: 'www.icts.res.in'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2023-03-31
+    date_end: 2024-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Research on optimizing Numerical Relativity Codes, Long eccentric, precessing numerical relativity simulations, Dynamical Horizons infrastructure for SpEC, Cross catalog comparison of numerical relativity waveforms 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
+      - name: High Performance Computing
+        description: 'Code parallelization, MPI, OpenMP, hip, Kokkos, CUDA'
+        percent: 95
+        icon: code-bracket
       - name: Python & PyTorch
         description: ''
         percent: 95
@@ -111,7 +105,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Scientific Visualization
         description: ''
         percent: 85
         icon: cloud
@@ -119,15 +113,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Former professional badminton player
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Building Custom PCs, Software optimizations
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Singing and Music
         description: ''
         percent: 70
         icon: book-open
@@ -135,35 +129,48 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: French
+    percent: 30
+  - name: German
+    percent: 15
+  - name: Hindi
+    percent: 75
+  - name: Kannada
+    percent: 90
+  - name: Sanskrit
+    percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Shyama Prasad Mukherjee Fellowship
+    url: https://csirhrdg.res.in/Home/Index/1/Default/3372/59
+    date: '2018-02-01'
+    awarder: Council of Scientific and Industrial Research (CSIR), Govt. of India
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
+      Awarded for research proposal on Dynamical Black Hole Horizons and proposecuring 4th All India Rank 
+  - title: G N Ramachandran Fellowship for Young Promising Researchers
     url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+    date: '2014-06-15'
+    awarder: Indian Institute of Technology, Madras
+    icon: https://physics.iitm.ac.in/
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Summer research fellowship for studying accelerated expansion of the universe
+  - title: Kishore Vaigyanik Protsahan Yojana
+    url: https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/school/kishore-vaigyanik-protsahan-yojana-kvpy
+    date: '2013-01-01'
+    awarder: Department of Science and Technology
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Recognized for outstanding performance in College and Undergraduate Physics
+  - title: Merit Scholarship
+    date: 2013-01-01
+    awarder: BITS, Pilani
+    summary: |
+      For outstanding performance in Freshman year
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am an Astrophysicist working to understand the beahaviour of Black Hole Horizons in dynamical situations, often in binary merger setting, their strong field gravitational effects and how they affect they affect the gravitational radiation we receive in our detectors, by Numerically solving Einstein's equations of General Relativity using Supercomputers. I also research and develop novel accelerated techniques for gravitational wave inference, using a variety of toold, from singal processing, Bayesian Inference and Stochastic Sampling. I also study the quality and performance of gravitational waveform produced by different models that directly impact our ability to accurately discern the source properties.I enjoy find novel solutions to problems by writing codes are optimized and efficient. 
