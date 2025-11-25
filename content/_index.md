@@ -24,7 +24,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: https://www.overleaf.com/download/project/61840e576f336f377d1f5c32/build/19abc9f2d3b-bfde9d086ec3833d/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-c3d-c-f-zpzt&enable_pdf_caching=true&popupDownload=true
       headings:
         about: ''
         education: ''
@@ -41,10 +41,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a researcher working to unravel the mysteries of the universe by listening to the cosmos - i.e. using gravitational waves. 
-        Black holes are one of the most mathematically beautiful, pure and symmetrical objects ever known to mankind. Yet they pose some of the biggest unsolved puzzles. As though isolated black holes are not sufficiently interesting, I attempt to study the boundaries of the black holes regions in highly dynamical situations - like those in binary mergers - and learn about their causally hidden properties using gravitational radiation.
+        I am an astrophysicist attempting to unravel the mysteries of the universe by listening to the cosmos using gravitational waves. 
+        Black holes are one of the most mathematically beautiful, pure and symmetrical objects ever known to mankind. Yet they pose some of the biggest unsolved puzzles. I attempt to study the boundaries of the black holes regions in highly dynamical situations - like those in binary mergers - and learn about their causally hidden properties using gravitational radiation. I am also interested in the physical properties of purtutbed black holes - from Black Hole Spectroscopy, late time tails to spectral instabilities.
 
-        The origin and astrophysical distribution of black holes, the methods used to infer the source properties, and the use of computational tools to intelligently and efficiently dismantle the deepest workings of the cosmos have captivated me in this journey.
+        The origin and astrophysical distribution of black holes, the methods used to infer the source properties, and the use of computational tools to intelligently and efficiently dismantle the deepest mysteries of the cosmos have captivated me in this journey.
 
         Please reach out to collaborate 😃
     design:
@@ -109,7 +109,7 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
