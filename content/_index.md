@@ -24,7 +24,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: https://www.overleaf.com/download/project/61840e576f336f377d1f5c32/build/19abc9f2d3b-bfde9d086ec3833d/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-c3d-c-f-zpzt&enable_pdf_caching=true&popupDownload=true
+        url: public/uploads/vaishak_cv_v2.pdf
       headings:
         about: ''
         education: ''
