@@ -91,6 +91,23 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
+  - position: Visiting student
+    company_name: International Centre for Theoretical Sciences - Tata Institute of Fundamental Research
+    company_url: https://www.icts.res.in/
+    company_logo: ''
+    date_start: 2022-11-01
+    date_end: 2023-03-31
+    summary: |
+      Visiting student hosted by Dr. Prayush Kumar.
+  - position: Senior Research Scholar (PhD)
+    company_name: Inter-University Centre for Astronomy and Astrophysics (IUCAA)
+    company_url: https://www.iucaa.in/
+    company_logo: ''
+    date_start: 2016-06-01
+    date_end: 2022-07-01
+    summary: |
+      PhD research on dynamical horizons in binary black hole mergers and their imprint in gravitational radiation (Supervisor: Prof. Sukanta Bose).
+
 skills:
   - name: Technical Skills
     items:
