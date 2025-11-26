@@ -8,8 +8,6 @@ tags:
 summary: Methods for accelerating time-domain inference pipelines for GW astronomy.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation
