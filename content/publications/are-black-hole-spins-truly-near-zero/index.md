@@ -1,5 +1,5 @@
 ---
-title: Are black hole spins truly near-zero?
+title: Are black hole spins truly near-zero
 date: 2025-11-25
 authors:
   - Vaishak Prasad
