@@ -12,7 +12,6 @@ publication: In preparation
 links:
 []
 ---
-
 **Status:** In preparation
 
 **Authors:** Vaishak Prasad; B. S. Sathyaprakash
