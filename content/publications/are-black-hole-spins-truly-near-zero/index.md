@@ -10,7 +10,6 @@ summary: Interrogates whether inferred near-zero spins are physical or driven by
 featured: false
 publication: In preparation
 links:
-[]
 ---
 **Status:** In preparation
 
