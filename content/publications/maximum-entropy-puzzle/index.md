@@ -13,8 +13,6 @@ tags:
 summary: Investigates a maximum-entropy puzzle emerging in quasi-circular binary mergers.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation

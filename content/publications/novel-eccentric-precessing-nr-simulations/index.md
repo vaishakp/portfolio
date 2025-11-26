@@ -11,8 +11,6 @@ tags:
 summary: New eccentric, precessing NR simulations and characterization of salient features.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation

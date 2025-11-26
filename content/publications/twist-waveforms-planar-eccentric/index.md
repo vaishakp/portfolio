@@ -17,8 +17,6 @@ tags:
 summary: Maps planar eccentric waveforms to approximate generic configurations via twisting/rotation methods.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation

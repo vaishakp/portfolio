@@ -8,8 +8,6 @@ tags:
 summary: C++ compile-time optimization techniques for SpEC-based NR simulations on HPC systems.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation

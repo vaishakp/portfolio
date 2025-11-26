@@ -11,8 +11,6 @@ tags:
 summary: Extended/alternate area-law analyses motivated by GW250114.
 featured: false
 publication: In preparation
-links:
-[]
 ---
 
 **Status:** In preparation
