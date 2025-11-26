@@ -9,7 +9,6 @@ tags:
 summary: Interrogates whether inferred near-zero spins are physical or driven by priors/selection effects.
 featured: false
 publication: In preparation
-links:
 ---
 **Status:** In preparation
 
