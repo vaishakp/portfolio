@@ -24,7 +24,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: public/uploads/vaishak_cv_v2.pdf
+        url: https://github.com/vaishakp/vaishak_cv_v2/releases/download/cv-latest/cv.pdf
       headings:
         about: ''
         education: ''
