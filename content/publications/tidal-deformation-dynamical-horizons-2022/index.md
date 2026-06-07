@@ -11,14 +11,14 @@ tags:
 - Numerical relativity
 - Tidal effects
 summary: Introduces and studies tidal deformation measures for dynamical horizons in BBH mergers.
-abstract: The study examines strong-field tidal deformation of black holes in BBH inspirals using
-  source multipole moments of dynamical horizons computed in NR simulations. While the usual (field)
-  tidal Love numbers for nonspinning black holes vanish in GR, the horizon-based source multipole
-  moments yield nonzero tidal response that can be tracked during inspiral. Across several simulations
-  (especially for modest mass ratios), the evolution of these source multipoles and associated
-  Love numbers shows evidence for near-universal behavior.
+abstract: The study examines strong-field tidal deformation of black holes in BBH inspirals
+  using source multipole moments of dynamical horizons computed in NR simulations. While the
+  usual (field) tidal Love numbers for nonspinning black holes vanish in GR, the horizon-based
+  source multipole moments yield nonzero tidal response that can be tracked during inspiral.
+  Across several simulations (especially for modest mass ratios), the evolution of these source
+  multipoles and associated Love numbers shows evidence for near-universal behavior.
 featured: false
-publication: Phys. Rev. D 105, 044019 (2022)
+publication: Phys. Rev. D 105, 044019 - Published 9 February 2022
 doi: 10.1103/PhysRevD.105.044019
 links:
 - name: arXiv

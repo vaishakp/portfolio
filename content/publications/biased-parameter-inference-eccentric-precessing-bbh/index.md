@@ -21,20 +21,21 @@ summary: Study of inference biases for eccentric, spin-precessing BBH systems.
 abstract: This study evaluates how orbital eccentricity and spin precession can bias GW parameter
   estimation when the recovery model is mismatched. By injecting eccentric signals with a range
   of spin configurations (including precessing NR hybrids) and analyzing them with a quasi-circular
-  precessing-spin model, the authors find appreciable biases in inferred parameters such as chirp
-  mass and the precession parameter χ_p for highly eccentric systems. Model-comparison results
-  favor an eccentric aligned-spin description over a quasi-circular precessing-spin model in relevant
-  cases, motivating practical waveform models that handle eccentricity and precession simultaneously.
+  precessing-spin model, the authors find appreciable biases in inferred parameters such as
+  chirp mass and the precession parameter χ_p for highly eccentric systems. Model-comparison
+  results favor an eccentric aligned-spin description over a quasi-circular precessing-spin
+  model in relevant cases, motivating practical waveform models that handle eccentricity and
+  precession simultaneously.
 featured: false
-publication: arXiv (gr-qc:2510.04332)
-doi: 10.48550/arXiv.2510.04332
+publication: Phys. Rev. D 113, 103022 - Published 12 May, 2026
+doi: 10.1103/jdkc-65lz
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2510.04332
 - name: PDF
   url: https://arxiv.org/pdf/2510.04332.pdf
 - name: DOI
-  url: https://doi.org/10.48550/arXiv.2510.04332
+  url: https://doi.org/10.1103/jdkc-65lz
 ---
 
 **Status:** Preprint
