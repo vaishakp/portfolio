@@ -1,7 +1,7 @@
 ---
 title: Projects & Software
 date: 2025-11-25
-type: landing
+type: page
 ---
 
 ## Research themes (selected)

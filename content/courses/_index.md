@@ -1,7 +1,7 @@
 ---
 title: Teaching, Mentoring & Outreach
 date: 2025-11-25
-type: landing
+type: page
 ---
 
 ## Teaching & tutoring (selected)

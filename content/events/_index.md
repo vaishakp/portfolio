@@ -1,7 +1,7 @@
 ---
 title: Talks & Presentations
 date: 2025-11-25
-type: landing
+type: page
 ---
 
 A curated list of recent and selected talks/posters.

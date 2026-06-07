@@ -1,7 +1,7 @@
 ---
 title: Publications
 date: 2025-11-25
-type: landing
+type: page
 ---
 
 This page tracks published papers, public preprints, and selected in-preparation manuscripts, with public entries maintained from site content and automated arXiv/INSPIRE checks.
