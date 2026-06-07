@@ -1,8 +1,71 @@
 body {
-  background-color: #0a0a0a; /* dark background */
-  background-image: url('../media/rubin.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: repeat;
+  background:
+    linear-gradient(180deg, rgba(3, 7, 18, 0.88), rgba(3, 7, 18, 0.94)),
+    url('../media/rubin.jpg') center / cover fixed no-repeat #05070d;
+  color: #f8fafc;
 }
 
+.hero-profile,
+.research-summary {
+  background: linear-gradient(135deg, rgba(5, 10, 24, 0.94), rgba(15, 23, 42, 0.88)) !important;
+  color: #f8fafc;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
+}
+
+.hero-profile p,
+.hero-profile li,
+.hero-profile .portrait-title,
+.research-summary p,
+.research-summary li,
+.research-summary .prose {
+  color: #e5edf7;
+}
+
+.hero-profile a:not(.btn),
+.research-summary a:not(.btn) {
+  color: #93c5fd;
+}
+
+.hero-profile .btn,
+.hero-profile a.btn {
+  background: #e0f2fe;
+  border-color: #e0f2fe;
+  color: #082f49;
+  font-weight: 700;
+}
+
+.hero-profile .btn:hover,
+.hero-profile a.btn:hover {
+  background: #bae6fd;
+  border-color: #bae6fd;
+  color: #082f49;
+}
+
+.hero-profile img {
+  box-shadow: 0 20px 50px rgba(2, 6, 23, 0.5);
+}
+
+.prose,
+.article-style {
+  color: #e5edf7;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.article-style h1,
+.article-style h2,
+.article-style h3 {
+  color: #f8fafc;
+}
+
+.prose a,
+.article-style a {
+  color: #93c5fd;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}

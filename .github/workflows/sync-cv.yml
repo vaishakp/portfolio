@@ -1,0 +1,87 @@
+name: Sync CV from Overleaf
+
+on:
+  schedule:
+    - cron: '47 8 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-cv-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OVERLEAF_GIT_URL: ${{ secrets.OVERLEAF_GIT_URL }}
+      OVERLEAF_GIT_USERNAME: ${{ secrets.OVERLEAF_GIT_USERNAME }}
+      OVERLEAF_GIT_TOKEN: ${{ secrets.OVERLEAF_GIT_TOKEN }}
+      OVERLEAF_CV_TEX: ${{ vars.OVERLEAF_CV_TEX }}
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+
+      - name: Check Overleaf configuration
+        id: config
+        run: |
+          if [ -z "$OVERLEAF_GIT_URL" ] || [ -z "$OVERLEAF_GIT_USERNAME" ] || [ -z "$OVERLEAF_GIT_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Overleaf secrets are not configured; skipping CV sync."
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+          echo "tex_path=${OVERLEAF_CV_TEX:-main.tex}" >> "$GITHUB_OUTPUT"
+
+      - name: Clone Overleaf CV project
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          cat > "$RUNNER_TEMP/overleaf-askpass.sh" <<'EOF'
+          #!/usr/bin/env bash
+          case "$1" in
+            *Username*) printf '%s\n' "$OVERLEAF_GIT_USERNAME" ;;
+            *Password*) printf '%s\n' "$OVERLEAF_GIT_TOKEN" ;;
+            *) printf '\n' ;;
+          esac
+          EOF
+          chmod 700 "$RUNNER_TEMP/overleaf-askpass.sh"
+          GIT_ASKPASS="$RUNNER_TEMP/overleaf-askpass.sh" GIT_TERMINAL_PROMPT=0 git clone "$OVERLEAF_GIT_URL" overleaf-cv
+
+      - name: Compile CV
+        if: steps.config.outputs.configured == 'true'
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: overleaf-cv
+          root_file: ${{ steps.config.outputs.tex_path }}
+          args: -pdf -interaction=nonstopmode -halt-on-error
+
+      - name: Copy compiled CV
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          tex_path="${{ steps.config.outputs.tex_path }}"
+          pdf_path="${tex_path%.tex}.pdf"
+          mkdir -p static/uploads
+          cp "overleaf-cv/$pdf_path" static/uploads/resume.pdf
+
+      - name: Create pull request
+        if: steps.config.outputs.configured == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(cv): sync latest Overleaf CV'
+          title: 'Sync latest CV from Overleaf'
+          body: |
+            This automated PR compiles the configured Overleaf project and updates `static/uploads/resume.pdf`.
+
+            Required repository settings:
+
+            - Secret `OVERLEAF_GIT_URL`
+            - Secret `OVERLEAF_GIT_USERNAME`
+            - Secret `OVERLEAF_GIT_TOKEN`
+            - Optional variable `OVERLEAF_CV_TEX` if the root file is not `main.tex`
+          branch: automation/sync-cv
+          labels: automated-pr, content, cv
+          delete-branch: true

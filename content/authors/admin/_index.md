@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Astrophysicist and  Numerical Relativist
+role: Gravitational-wave astrophysicist and numerical relativist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -49,28 +49,26 @@ profiles:
 
 interests:
   - Strong Gravity
-  - Astrophysics
+  - Black-hole Horizons
+  - Tests of General Relativity
   - Numerical Relativity
-  - Gravitational Wave Data Analysis
+  - Gravitational-wave Data Analysis
   - High Performance Computing
 
 past-light-cone:
-  - area: PhD in Astrophysics 
+  - area: PhD in Astrophysics
     institution: IUCAA, Pune, India
     date_start: 2015-09-01
     date_end: 2019-06-30
     summary: |
       Thesis on _Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation_. Supervised by Prof. Sukanta Bose.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: Int. M.Sc.(hons) Physics
+  - area: Int. M.Sc. (Hons.) Physics
     institution: Birla Institute of Technology and Science, Pilani - Hyderabad Campus
     date_start: 2012-08-01
     date_end: 2016-01-30
     summary: |
-      Specialized in Causal Structure of Space times and Black Hole Physics
-      
+      Specialized in causal structure of spacetimes and black-hole physics.
+
 work:
   - position: Eberly Postdoctoral Scholar
     company_name: The Pennsylvania State University
@@ -79,15 +77,15 @@ work:
     date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Leading research on Science Traceability Matrix - Testing General Relativity for Cosmic Explorer, Gravitational Wave data analysis, Dynamical Horizons and Numerical Relativity.
-  - position: Postdoctoral Researcher
+      Working on tests of general relativity for Cosmic Explorer, gravitational-wave data analysis, dynamical horizons, and numerical relativity.
+  - position: Postdoctoral Fellow
     company_name: International Centre for Theoretical Sciences - Tata Institute of Fundamental Research
-    company_url: 'www.icts.res.in'
+    company_url: 'https://www.icts.res.in/'
     company_logo: ''
     date_start: 2023-03-31
     date_end: 2024-12-31
     summary: |
-      Research on optimizing Numerical Relativity Codes, Long eccentric, precessing numerical relativity simulations, Dynamical Horizons infrastructure for SpEC, Cross catalog comparison of numerical relativity waveforms 
+      Worked on numerical-relativity code optimization, long eccentric and precessing simulations, dynamical-horizon infrastructure for SpEC, and cross-catalog comparisons of numerical-relativity waveforms.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -169,7 +167,7 @@ awards:
     awarder: Council of Scientific and Industrial Research (CSIR), Govt. of India
     icon: hero/trophy
     summary: |
-      Awarded for research proposal on Dynamical Black Hole Horizons and proposecuring 4th All India Rank 
+      Awarded for a research proposal on dynamical black-hole horizons, securing 4th All India Rank.
   - title: G N Ramachandran Fellowship for Young Promising Researchers
     url: https://www.nsf.gov/
     date: '2014-06-15'
@@ -191,4 +189,6 @@ awards:
       For outstanding performance in Freshman year
 ---
 
-I am an Astrophysicist working to understand the beahaviour of Black Hole Horizons in dynamical situations, often in binary merger setting, their strong field gravitational effects and how they affect they affect the gravitational radiation we receive in our detectors, by Numerically solving Einstein's equations of General Relativity using Supercomputers. I also research and develop novel accelerated techniques for gravitational wave inference, using a variety of tools, from singal processing, Bayesian Inference and Stochastic Sampling. I also study the quality and performance of gravitational waveform produced by different models that directly impact our ability to accurately discern the source properties.I enjoy find novel solutions to problems by writing codes are optimized and efficient. 
+I am a gravitational-wave astrophysicist and numerical relativist working on black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations, and data-analysis methods to understand how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
+
+My current research spans black-hole spectroscopy, tests of general relativity, accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I enjoy building reliable analysis tools that make difficult gravitational-wave calculations practical at scale.

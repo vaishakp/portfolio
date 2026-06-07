@@ -6,12 +6,12 @@ type: landing
 
 ## Research themes (selected)
 
-- GR-informed ringdown modelling (2026–)
-- Spin priors for gravitational-wave astronomy (2025)
-- Area law analysis and related GR tests with **GW250114** (2025)
-- Accelerated time-domain analysis pipelines for GW astronomy (2025)
-- Numerical simulations of eccentric, aligned/precessing BBH systems (2023–)
-- Dynamical horizons (SpEC / SpECTRE), pseudo-spectral methods, and horizon finding (2022–)
+- GR-informed ringdown modeling (2026-present)
+- Multi-segment consistency tests and area-law analyses with **GW250114** (2026)
+- Spin priors for gravitational-wave astronomy (2026)
+- Accelerated time-domain analysis pipelines for gravitational-wave inference (2026)
+- Numerical simulations of eccentric, aligned/precessing BBH systems (2023-present)
+- Dynamical horizons, pseudo-spectral methods, and horizon finding with SpEC/SpECTRE (2022-present)
 
 ## Codes developed (from CV)
 

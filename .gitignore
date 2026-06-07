@@ -28,6 +28,10 @@ hugo_stats.json
 # Dependencies
 node_modules/
 
+# Python bytecode
+__pycache__/
+*.py[cod]
+
 # ============================================================================
 # Environment & Configuration
 # ============================================================================
