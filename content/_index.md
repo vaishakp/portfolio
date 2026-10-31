@@ -6,14 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
-  background:
-    image:
-        filename: 'rubin.jpg'
-        filters:
-            darken: 0.82
-    fit: cover
-    focal_point: center
+  spacing: '4rem'
 
 sections:
   - block: resume-biography-3
@@ -61,31 +54,29 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Selected Publications
       filters:
         folders:
           - publications
         featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: true
+      archive:
+        enable: true
+        link: /cv/#publications
+        text: All publications
     design:
       view: citation
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Talks
+      count: 5
       filters:
         folders:
           - events
+      archive:
+        enable: true
+        link: /cv/#talks
+        text: All talks
     design:
-      view: card
+      view: date-title-summary
 ---

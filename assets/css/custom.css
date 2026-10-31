@@ -72,3 +72,13 @@
 .prose h3[id] {
   scroll-margin-top: 5rem;
 }
+
+/* Simple design: a wider Research column so the text wraps evenly around the
+   visualization, and no theme advertisement in the footer. */
+.research-summary .max-w-prose {
+  max-width: 60rem;
+}
+
+.powered-by:has([data-hbx="poweredby_brand"]) {
+  display: none;
+}
