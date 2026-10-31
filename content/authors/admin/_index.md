@@ -19,7 +19,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Gravitational-wave astrophysicist and numerical relativist
+role: Gravitational waves, astrophysics, and numerical relativity
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -185,6 +185,6 @@ awards:
       For outstanding academic performance in the first undergraduate year.
 ---
 
-I am a gravitational-wave astrophysicist and numerical relativist. I work on black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations and data-analysis methods. With them I study how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
+I work on gravitational waves, astrophysics, and numerical relativity. My focus is black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations and data-analysis methods. With them I study how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
 
 My current research includes black-hole spectroscopy and tests of general relativity. It also covers accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I develop analysis tools that reduce the computational cost of gravitational-wave calculations.
