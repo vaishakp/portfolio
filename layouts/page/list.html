@@ -1,6 +1,13 @@
 {{ define "main" }}
+{{/* `wide: true` in the front matter (the CV page) uses most of the window
+     instead of the prose reading width. */}}
+{{ if .Params.wide }}
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+  <article class="prose prose-slate lg:prose-lg max-w-none dark:prose-invert">
+{{ else }}
 <div class="max-w-prose mx-auto flex justify-center px-6">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+{{ end }}
     <h1 class="lg:text-6xl">{{ .Title }}</h1>
     {{ .Content }}
   </article>

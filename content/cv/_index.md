@@ -2,6 +2,7 @@
 title: Curriculum Vitae
 date: 2026-10-31
 type: page
+wide: true
 ---
 
 <!-- Generated from the CV by scripts/cv_to_site.py. Edit the CV and rerun the script; changes made here are overwritten. -->
