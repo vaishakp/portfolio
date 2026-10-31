@@ -1,3 +1,171 @@
+/* ---------------------------------------------------------------------------
+ * Readability over the starfield background.
+ *
+ * Two separate reasons the text was sitting on bare stars:
+ *
+ * 1. The theme only loads `assets/css/custom.css` (see `site_head.html`), so
+ *    the previous `assets/scss/custom.scss` was never applied to the site.
+ * 2. `content/_index.md` sets `design.background.filters.darken: 0.82`, but
+ *    this version of blox-tailwind ignores `filters` entirely - it reads only
+ *    `background.image.filename`. The starfield in the fixed `#page-bg` layer
+ *    was therefore painted at full brightness behind every section.
+ *
+ * So we darken `#page-bg` ourselves and give every section a readable backdrop.
+ * ------------------------------------------------------------------------- */
+
+body {
+  background-color: #05070d;
+  color: #f8fafc;
+}
+
+/* Dark veil over the starfield. `#page-bg` is `position: fixed`, so this covers
+   the viewport and stays put while the page scrolls. */
+#page-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 7, 18, 0.72);
+  pointer-events: none;
+}
+
+/* Every blox section gets the same readable surface, so text never sits
+   directly on top of stars. Sections are flush with each other, so the panels
+   tile into one continuous column. */
+.hbb-section {
+  position: relative;
+  background: rgba(4, 9, 20, 0.82);
+  backdrop-filter: blur(3px);
+  color: #f8fafc;
+}
+
+/* Let the starfield read more strongly behind the portrait, then ramp up to the
+   standard panel opacity so the join with the next section is seamless. */
+.hero-profile {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 9, 20, 0.55) 0%,
+    rgba(4, 9, 20, 0.72) 60%,
+    rgba(4, 9, 20, 0.82) 100%
+  ) !important;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
+}
+
+.research-summary {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.hbb-section p,
+.hbb-section li,
+.hero-profile .portrait-title,
+.research-summary .prose {
+  color: #e5edf7;
+}
+
+/* Section headings need to clear the brightest stars. */
+.hbb-section h1,
+.hbb-section h2,
+.hbb-section h3 {
+  color: #f8fafc;
+  text-shadow: 0 1px 12px rgba(3, 7, 18, 0.85);
+}
+
+.hero-profile a:not(.btn),
+.research-summary a:not(.btn) {
+  color: #93c5fd;
+}
+
+.hero-profile .btn,
+.hero-profile a.btn {
+  background: #e0f2fe;
+  border-color: #e0f2fe;
+  color: #082f49;
+  font-weight: 700;
+}
+
+.hero-profile .btn:hover,
+.hero-profile a.btn:hover {
+  background: #bae6fd;
+  border-color: #bae6fd;
+  color: #082f49;
+}
+
+.hero-profile img {
+  box-shadow: 0 20px 50px rgba(2, 6, 23, 0.5);
+}
+
+.prose,
+.article-style {
+  color: #e5edf7;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.article-style h1,
+.article-style h2,
+.article-style h3 {
+  color: #f8fafc;
+}
+
+.prose a,
+.article-style a {
+  color: #93c5fd;
+}
+
+/* Cards (publications, talks, awards) default to white, which glares against
+   the dark page. Keep them dark and fully opaque so their text is never
+   competing with the background. */
+.hbb-section .bg-white {
+  background-color: rgba(15, 23, 42, 0.92) !important;
+  border-color: rgba(148, 163, 184, 0.22) !important;
+}
+
+.hbb-section .bg-white h3,
+.hbb-section .bg-white h5,
+.hbb-section .bg-white a {
+  color: #f1f5f9;
+}
+
+.hbb-section .bg-white .text-gray-500,
+.hbb-section .bg-white .text-gray-600,
+/* Bold text in the cards (e.g. "PI" in the awards) is dark by default and
+   disappears against the dark card. */
+.hbb-section .bg-white strong,
+.hbb-section .bg-white b {
+  color: #f1f5f9;
+}
+
+.hbb-section .bg-white .text-gray-900 {
+  color: #cbd5e1 !important;
+}
+
+/* Interior pages (Experience, Projects, Courses, single publications) sit on
+   the same starfield but have no blox section wrapper. */
+.page-wrapper main article,
+.page-wrapper main .article-container {
+  background: rgba(4, 9, 20, 0.86);
+}
+
+@media (max-width: 768px) {
+  /* `backdrop-filter` is expensive on mobile GPUs; the panels are opaque enough
+     without it. */
+  .hbb-section {
+    backdrop-filter: none;
+    background: rgba(4, 9, 20, 0.88);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  #page-bg::after {
+    background: rgba(3, 7, 18, 0.92);
+  }
+
+  .hbb-section {
+    background: rgba(4, 9, 20, 0.97);
+    backdrop-filter: none;
+  }
+}
+
 /* Merger animation: floated beside the Research text on the homepage, full
    width on /animation/. The videos are square (homepage) and 16:9 (page). */
 .bbh-float {

@@ -5,7 +5,7 @@ authors:
 - LIGO-Virgo-KAGRA Collaboration (incl. Vaishak Prasad)
 tags:
 - GR tests
-- Preprint
+- Published
 - Ringdown
 summary: Black-hole spectroscopy and tests of general relativity with GW250114. Contributed to the
   interpretation of the area-law result and to the ringdown model.
@@ -17,7 +17,7 @@ abstract: Using the exceptionally loud BBH event GW250114, the LVK Collaboration
   frequencies to the percent level, yielding single-event constraints comparable to—or stronger
   than—combined constraints from many O4 catalog events.
 featured: true
-publication: arXiv (gr-qc:2509.08099)
+publication: Physical Review Letters 136, 041403 (2026)
 doi: 10.48550/arXiv.2509.08099
 links:
 - name: arXiv
@@ -28,12 +28,12 @@ links:
   url: https://doi.org/10.48550/arXiv.2509.08099
 ---
 
-**Status:** Preprint
+**Status:** Published
 
 **Authors:** LIGO-Virgo-KAGRA Collaboration (incl. Vaishak Prasad)
 
-**Venue:** arXiv (gr-qc:2509.08099)
+**Venue:** Phys. Rev. Lett. **136**, 041403 (2026)
 
 - arXiv: [2509.08099](https://arxiv.org/abs/2509.08099)
 
-Spectroscopy and GR tests on GW250114; Vaishak contributed to area law interpretation and ringdown model context.
+I contributed to the ringdown model and to the interpretation of the area-law result. I also reviewed the results.

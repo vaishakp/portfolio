@@ -1,6 +1,6 @@
 ---
 title: Biased parameter inference of eccentric, spin-precessing binary black holes
-date: 2025-10-05
+date: 2026-05-12
 authors:
 - Divyajyoti
 - Isobel M. Romero-Shaw
@@ -16,7 +16,7 @@ authors:
 tags:
 - Eccentricity
 - Precession
-- Preprint
+- Published
 summary: A study of inference biases for eccentric, spin-precessing binary black holes.
 abstract: This study evaluates how orbital eccentricity and spin precession can bias GW parameter
   estimation when the recovery model is mismatched. By injecting eccentric signals with a range
@@ -26,22 +26,22 @@ abstract: This study evaluates how orbital eccentricity and spin precession can 
   favor an eccentric aligned-spin description over a quasi-circular precessing-spin model in relevant
   cases, motivating practical waveform models that handle eccentricity and precession simultaneously.
 featured: false
-publication: arXiv (gr-qc:2510.04332)
-doi: 10.48550/arXiv.2510.04332
+publication: Physical Review D 113, 103022 (2026)
+doi: 10.1103/jdkc-65lz
 links:
+- name: DOI
+  url: https://doi.org/10.1103/jdkc-65lz
 - name: arXiv
   url: https://arxiv.org/abs/2510.04332
 - name: PDF
   url: https://arxiv.org/pdf/2510.04332.pdf
-- name: DOI
-  url: https://doi.org/10.48550/arXiv.2510.04332
 ---
 
-**Status:** Preprint
+**Status:** Published
 
 **Authors:** Divyajyoti, Isobel M. Romero-Shaw, Vaishak Prasad, Kaushik Paul, Chandra Kant Mishra, Prayush Kumar, Akash Maurya, Michael Boyle, Lawrence E. Kidder, Harald P. Pfeiffer and Mark A. Scheel
 
-**Venue:** arXiv (gr-qc:2510.04332)
+**Venue:** Phys. Rev. D **113**, 103022 (2026)
 
 - arXiv: [2510.04332](https://arxiv.org/abs/2510.04332)
 

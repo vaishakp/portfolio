@@ -51,6 +51,13 @@ sections:
     design:
       css_class: research-summary
       columns: '1'
+  - block: resume-awards
+    id: awards
+    content:
+      title: Grants, Awards & Computing Allocations
+      username: admin
+    design:
+      css_class: awards-section
   - block: collection
     id: papers
     content:
