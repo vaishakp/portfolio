@@ -258,7 +258,7 @@ def section_files(cv: Path) -> list[Path]:
 
 def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -> str:
     lines = [
-        f"---\ntitle: Curriculum Vitae\ndate: {date}\ntype: page\nwide: true\n---\n",
+        f"---\ntitle: Curriculum Vitae\ndate: {date}\ntype: page\n---\n",
         GENERATED_NOTE,
         "",
         '<p class="cv-contents">'

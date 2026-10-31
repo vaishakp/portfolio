@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{/* `wide: true` in the front matter (the CV page) uses most of the window
-     instead of the prose reading width. */}}
-{{ if .Params.wide }}
+{{/* Pages use most of the window. `wide: false` in the front matter keeps the
+     narrower prose reading width instead. */}}
+{{ if ne .Params.wide false }}
 <div class="max-w-7xl mx-auto px-6 lg:px-12">
   <article class="prose prose-slate lg:prose-lg max-w-none dark:prose-invert">
 {{ else }}
