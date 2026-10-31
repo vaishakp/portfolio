@@ -12,10 +12,6 @@ last_name: Prasad
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji
-status:
-  icon: 🚀
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -35,7 +31,7 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:vaishakprasad@psu.edu'
-    label: E-mail Me
+    label: Email
   - icon: brands/x
     url: https://twitter.com/vaishakp
   - icon: brands/github
@@ -191,4 +187,4 @@ awards:
 
 I am a gravitational-wave astrophysicist and numerical relativist working on black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations, and data-analysis methods to understand how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
 
-My current research spans black-hole spectroscopy, tests of general relativity, accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I enjoy building reliable analysis tools that make difficult gravitational-wave calculations practical at scale.
+My current research spans black-hole spectroscopy, tests of general relativity, accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I develop analysis tools that make demanding gravitational-wave calculations tractable at scale.

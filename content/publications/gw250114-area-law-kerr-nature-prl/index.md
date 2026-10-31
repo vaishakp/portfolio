@@ -5,8 +5,8 @@ authors:
 - LIGO-Virgo-KAGRA Collaboration (incl. Vaishak Prasad)
 tags:
 - GR tests
-summary: Area-law test and Kerr nature assessment for GW250114; Vaishak contributed to analysis/interpretation
-  and ringdown model.
+summary: Test of the area law and of the Kerr nature of the remnant with GW250114. Contributed to the
+  analysis and interpretation of the area-law result and to the ringdown model.
 abstract: Using the exceptionally loud GW250114 BBH signal, the LVK Collaboration tests Hawking’s
   area law and the Kerr nature of the remnant black hole. The inspiral indicates a near-equal-mass,
   low-spin binary, and the post-merger signal is consistent with Kerr ringdown structure. Overall,
@@ -32,4 +32,4 @@ links:
 
 **Venue:** Phys. Rev. Lett. 135 (2025) 111403
 
-Area-law test and Kerr nature assessment for GW250114; Vaishak contributed to analysis/interpretation and ringdown model.
+Test of the area law and of the Kerr nature of the remnant with GW250114. Contributed to the analysis and interpretation of the area-law result and to the ringdown model.

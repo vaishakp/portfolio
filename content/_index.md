@@ -52,9 +52,9 @@ sections:
 
         I study strong-field gravity in black-hole mergers: how dynamical horizons deform, relax, and leave measurable structure in gravitational waves.
 
-        My work connects numerical relativity, black-hole perturbation theory, and gravitational-wave data analysis. Recent themes include horizon shear and source multipoles in binary mergers, black-hole spectroscopy and area-law tests with loud events such as GW250114, accelerated time-domain inference, and waveform systematics for eccentric and precessing binaries.
+        My work connects numerical relativity, black-hole perturbation theory, and gravitational-wave data analysis. Recent themes include horizon shear and source multipoles in binary mergers, black-hole spectroscopy and area-law tests with high signal-to-noise events such as GW250114, accelerated time-domain inference, and waveform systematics for eccentric and precessing binaries.
 
-        I am especially interested in tools that make these questions computable at scale, from parallel and heterogeneous algorithms to reliable analysis pipelines for next-generation detectors.
+        A further focus is computational: parallel and heterogeneous algorithms and robust analysis pipelines for next-generation detectors.
     design:
       css_class: research-summary
       columns: '1'

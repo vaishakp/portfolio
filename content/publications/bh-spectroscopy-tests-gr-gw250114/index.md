@@ -7,8 +7,8 @@ tags:
 - GR tests
 - Preprint
 - Ringdown
-summary: Spectroscopy and GR tests on GW250114; Vaishak contributed to area law interpretation
-  and ringdown model context.
+summary: Black-hole spectroscopy and tests of general relativity with GW250114. Contributed to the
+  interpretation of the area-law result and to the ringdown model.
 abstract: Using the exceptionally loud BBH event GW250114, the LVK Collaboration performs detailed
   inspiral–merger–ringdown tests of GR and black-hole spectroscopy of the remnant. The post-merger
   signal supports at least two quasi-normal modes, and the dominant mode and overtone are found

@@ -13,12 +13,12 @@ type: page
 - Numerical simulations of eccentric, aligned/precessing BBH systems (2023-present)
 - Dynamical horizons, pseudo-spectral methods, and horizon finding with SpEC/SpECTRE (2022-present)
 
-## Codes developed (from CV)
+## Software
 
 - **wfs_match** — MPI-based parallel template parameter estimation routine
 - **yumcee** — MPI-based Markov-Chain and Nested Monte Carlo sampler
 - **waveformtools** — data handling tools for the Einstein Toolkit
-- **qlmtools** — analysis/handling of 2D dynamical-horizon numerical data
+- **qlmtools** — analysis and handling of 2D dynamical-horizon numerical data
 - **quasinormal** — analysis tools for quasi-normal modes
 - **null_solver** — dual-null characteristic solver for scattering problems
 - **pkginstaller** — lightweight package installer for HPC clusters
