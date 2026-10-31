@@ -63,7 +63,7 @@ past-light-cone:
     date_start: 2012-08-01
     date_end: 2016-01-30
     summary: |
-      Specialized in causal structure of spacetimes and black-hole physics.
+      Specialized in the causal structure of spacetimes and black-hole physics.
 
 work:
   - position: Eberly Postdoctoral Scholar
@@ -163,28 +163,28 @@ awards:
     awarder: Council of Scientific and Industrial Research (CSIR), Govt. of India
     icon: hero/trophy
     summary: |
-      Awarded for a research proposal on dynamical black-hole horizons, securing 4th All India Rank.
+      Awarded for a research proposal on dynamical black-hole horizons. All India Rank 4 in the selection.
   - title: G N Ramachandran Fellowship for Young Promising Researchers
     url: https://www.nsf.gov/
     date: '2014-06-15'
     awarder: Indian Institute of Technology, Madras
     icon: https://physics.iitm.ac.in/
     summary: |
-      Summer research fellowship for studying accelerated expansion of the universe
+      Summer research fellowship to study the accelerated expansion of the universe.
   - title: Kishore Vaigyanik Protsahan Yojana
     url: https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/school/kishore-vaigyanik-protsahan-yojana-kvpy
     date: '2013-01-01'
     awarder: Department of Science and Technology
     icon: hero/academic-cap
     summary: |
-      Recognized for outstanding performance in College and Undergraduate Physics
+      Recognized for outstanding performance in college and undergraduate physics.
   - title: Merit Scholarship
     date: 2013-01-01
     awarder: BITS, Pilani
     summary: |
-      For outstanding performance in Freshman year
+      For outstanding academic performance in the first undergraduate year.
 ---
 
-I am a gravitational-wave astrophysicist and numerical relativist working on black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations, and data-analysis methods to understand how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
+I am a gravitational-wave astrophysicist and numerical relativist. I work on black-hole dynamics in the strong-field regime. I use numerical relativity simulations, gravitational-wave observations and data-analysis methods. With them I study how dynamical horizons in binary mergers encode information about the remnant black hole and the radiation measured by detectors.
 
-My current research spans black-hole spectroscopy, tests of general relativity, accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I develop analysis tools that reduce the computational cost of gravitational-wave calculations.
+My current research includes black-hole spectroscopy and tests of general relativity. It also covers accelerated time-domain inference, waveform systematics, eccentric and precessing binaries, and high-performance scientific computing. I develop analysis tools that reduce the computational cost of gravitational-wave calculations.

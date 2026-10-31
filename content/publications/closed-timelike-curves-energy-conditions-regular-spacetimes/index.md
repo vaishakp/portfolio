@@ -7,7 +7,7 @@ authors:
 - Vaishak Prasad
 tags:
 - Spacetime structure
-summary: Explores chronology violation and energy conditions in regular spacetime models.
+summary: We study chronology violation and energy conditions in regular spacetime models.
 abstract: The authors investigate how violations of energy conditions relate to the presence of
   closed timelike curves in Kerr–Newman-type spacetimes. They introduce a correlation index that
   quantifies the overlap between CTC regions and energy-condition violations, and apply it to
@@ -28,8 +28,8 @@ links:
 
 **Status:** Journal
 
-**Authors:** Sashideep Gutti; Shailesh Kulkarni; Vaishak Prasad
+**Authors:** Sashideep Gutti, Shailesh Kulkarni and Vaishak Prasad
 
 **Venue:** Eur. Phys. J. C 82, 1136 (2022)
 
-Explores chronology violation and energy conditions in regular spacetime models.
+We study chronology violation and energy conditions in regular spacetime models.

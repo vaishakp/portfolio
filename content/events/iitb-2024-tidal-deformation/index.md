@@ -1,7 +1,7 @@
 ---
-title: Tidal deformation of dynamical horizons in BBH mergers and imprint in radiation
+title: Tidal deformation of dynamical horizons in binary black hole mergers and its imprint in their gravitational radiation
 date: 2024-02-15
-summary: Invited talk on tidal deformation measures for dynamical horizons and GW imprint.
+summary: Invited talk on measures of tidal deformation for dynamical horizons and their imprint on gravitational waves.
 event: Dept. of Physics, IIT Bombay
 location: Mumbai, India
 tags:
@@ -12,4 +12,4 @@ tags:
 **Type:** Invited talk
 **Location:** Mumbai, India
 
-Invited talk on tidal deformation measures for dynamical horizons and GW imprint.
+Invited talk on measures of tidal deformation for dynamical horizons and their imprint on gravitational waves.

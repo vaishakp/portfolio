@@ -8,15 +8,15 @@ tags:
   - Eccentricity
   - In preparation
   - Precession
-summary: New eccentric, precessing NR simulations and characterization of salient features.
+summary: We present numerical relativity simulations of eccentric, precessing binaries and describe their properties.
 featured: false
 publication: In preparation
 ---
 
 **Status:** In preparation
 
-**Authors:** Vaishak Prasad; Prayush Kumar
+**Authors:** Vaishak Prasad and Prayush Kumar
 
 **Venue:** In preparation
 
-New eccentric, precessing NR simulations and characterization of salient features.
+We present numerical relativity simulations of eccentric, precessing binaries and describe their properties.

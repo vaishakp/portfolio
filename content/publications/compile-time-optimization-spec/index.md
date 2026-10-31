@@ -5,7 +5,7 @@ authors:
   - Vaishak Prasad
 tags:
   - In preparation
-summary: C++ compile-time optimization techniques for SpEC-based NR simulations on HPC systems.
+summary: C++ compile-time optimization for SpEC numerical relativity simulations on high-performance computing systems.
 featured: false
 publication: In preparation
 ---
@@ -16,4 +16,4 @@ publication: In preparation
 
 **Venue:** In preparation
 
-C++ compile-time optimization techniques for SpEC-based NR simulations on HPC systems.
+C++ compile-time optimization for SpEC numerical relativity simulations on high-performance computing systems.

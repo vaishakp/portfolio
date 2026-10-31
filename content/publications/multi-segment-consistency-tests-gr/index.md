@@ -7,8 +7,7 @@ tags:
   - GR tests
   - Preprint
   - Ringdown
-summary: Generalizes inspiral-merger-ringdown consistency tests using a multi-segment,
-  time-domain framework and applies it to GW250114.
+summary: I generalize inspiral-merger-ringdown consistency tests to multiple time-domain segments. The method is applied to GW250114.
 abstract: This work introduces a multi-parameter Multi-Segment Consistency Test that enforces
   consistency of extrinsic signal properties across independent waveform segments. Applied to the
   inspiral and ringdown portions of GW250114, the method strengthens area-increase constraints
@@ -33,4 +32,4 @@ links:
 
 - arXiv: [2603.05835](https://arxiv.org/abs/2603.05835)
 
-Generalizes inspiral-merger-ringdown consistency tests using a multi-segment, time-domain framework and applies it to GW250114.
+I generalize inspiral-merger-ringdown consistency tests to multiple time-domain segments. The method is applied to GW250114.

@@ -8,8 +8,7 @@ tags:
 - Dynamical horizons
 - Numerical relativity
 - Tidal effects
-summary: Quantifies tidal deformation of dynamical horizons and connects it to imprints on gravitational
-  radiation.
+summary: I quantify the tidal deformation of dynamical horizons. I relate it to features in the emitted gravitational radiation.
 abstract: Using NR simulations, this work tracks generalized source multipole moments of dynamical-horizon
   geometry through inspiral, merger, and ringdown. During inspiral the horizons steadily acquire
   multipoles that vanish for isolated holes, dominated by a quadrupole component, and these multipoles
@@ -39,4 +38,4 @@ links:
 
 - arXiv: [2109.01193](https://arxiv.org/abs/2109.01193)
 
-Quantifies tidal deformation of dynamical horizons and connects it to imprints on gravitational radiation.
+I quantify the tidal deformation of dynamical horizons. I relate it to features in the emitted gravitational radiation.

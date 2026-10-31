@@ -9,7 +9,7 @@ tags:
 ---
 
 **Event:** Cosmic Explorer Science Traceability Matrix Meeting
-**Type:** Talk / organizer
+**Type:** Speaker and organizer
 **Location:** Penn State, State College, PA, USA
 
 Overview of the science traceability matrix (Tests of GR) for Cosmic Explorer.

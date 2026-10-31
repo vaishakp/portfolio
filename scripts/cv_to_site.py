@@ -40,13 +40,13 @@ SKIPPED_FILES = {"references"}
 # Fixed anchors for the sections the menu links to; other sections get a slug.
 ANCHORS = {
     "Positions held": "positions",
-    "Ph.D Thesis": "thesis",
+    "Ph.D. Thesis": "thesis",
     "Publications": "publications",
     "Fellowships, Grants, and Awards": "awards",
     "Invited Talks and Seminars": "talks",
     "Contributed Talks and Posters": "contributed-talks",
     "Projects Guided, Mentoring and Teaching": "teaching",
-    "Commission of Trust": "service",
+    "Academic Service": "service",
     "Science outreach activities": "outreach",
     "Computing skills and interests": "skills",
     "Codes developed": "codes",

@@ -5,8 +5,7 @@ authors:
 - LIGO-Virgo-KAGRA Collaboration (incl. Vaishak Prasad)
 tags:
 - Preprint
-summary: Investigation of the single-detector high-SNR event GW230814; includes targeted numerical
-  relativity simulation support.
+summary: Investigation of GW230814, a high signal-to-noise event observed with a single detector. I contributed a targeted numerical relativity simulation.
 abstract: GW230814 is a very high–signal-to-noise BBH event observed primarily in the LIGO Livingston
   detector. The source parameters are consistent with a typical BBH (m₁≈34 M⊙, m₂≈28 M⊙) with
   near-zero effective spin, and the data enable the first confident inspiral detection of the
@@ -35,4 +34,4 @@ links:
 
 - arXiv: [2509.07348](https://arxiv.org/abs/2509.07348)
 
-Investigation of the single-detector high-SNR event GW230814; includes targeted numerical relativity simulation support.
+Investigation of GW230814, a high signal-to-noise event observed with a single detector. I contributed a targeted numerical relativity simulation.

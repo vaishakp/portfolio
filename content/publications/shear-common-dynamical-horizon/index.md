@@ -7,8 +7,7 @@ authors:
 tags:
 - Dynamical horizons
 - Numerical relativity
-summary: Connects shear dynamics at the common horizon to features in the emitted gravitational
-  radiation.
+summary: I relate shear dynamics at the common horizon to features in the emitted gravitational radiation.
 abstract: This paper studies the shear of the outer common dynamical horizon in BBH mergers and
   how it tracks the waveform seen at future null infinity. By introducing an area-based time parametrization
   on the horizon, the authors find a strong correlation between horizon shear features and the
@@ -35,4 +34,4 @@ links:
 
 **Venue:** Phys. Rev. D 111, 084070 (2025)
 
-Connects shear dynamics at the common horizon to features in the emitted gravitational radiation.
+I relate shear dynamics at the common horizon to features in the emitted gravitational radiation.

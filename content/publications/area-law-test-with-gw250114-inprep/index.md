@@ -8,15 +8,15 @@ authors:
 tags:
   - GR tests
   - In preparation
-summary: Extended/alternate area-law analyses motivated by GW250114.
+summary: Extended and alternative area-law analyses motivated by GW250114.
 featured: false
 publication: In preparation
 ---
 
 **Status:** In preparation
 
-**Authors:** Vaishak Prasad; B. S. Sathyaprakash; Abhay Ashtekar
+**Authors:** Vaishak Prasad, B. S. Sathyaprakash and Abhay Ashtekar
 
 **Venue:** In preparation
 
-Extended/alternate area-law analyses motivated by GW250114.
+Extended and alternative area-law analyses motivated by GW250114.

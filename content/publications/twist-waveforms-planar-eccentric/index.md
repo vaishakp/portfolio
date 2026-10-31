@@ -14,15 +14,15 @@ authors:
 tags:
   - Eccentricity
   - In preparation
-summary: Maps planar eccentric waveforms to approximate generic configurations via twisting/rotation methods.
+summary: We rotate waveforms from planar eccentric binaries to approximate waveforms from generic binary configurations.
 featured: false
 publication: In preparation
 ---
 
 **Status:** In preparation
 
-**Authors:** Priyanka Sinha; Samanwaya Mukherjee; Prayush Kumar; Vaishak Prasad; Lawrence Kidder; Harald Pfeiffer; Mark Scheel; Md Shaikh; Michael Boyle
+**Authors:** Priyanka Sinha, Samanwaya Mukherjee, Prayush Kumar, Vaishak Prasad, Lawrence Kidder, Harald Pfeiffer, Mark Scheel, Md Shaikh and Michael Boyle
 
 **Venue:** In preparation
 
-Maps planar eccentric waveforms to approximate generic configurations via twisting/rotation methods.
+We rotate waveforms from planar eccentric binaries to approximate waveforms from generic binary configurations.

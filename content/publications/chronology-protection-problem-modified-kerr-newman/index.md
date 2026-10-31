@@ -8,7 +8,7 @@ authors:
 tags:
 - GR tests
 - Spacetime structure
-summary: Studies chronology protection and causal pathologies in modified Kerr-Newman spacetimes.
+summary: We study chronology protection and causal pathologies in modified Kerr–Newman spacetimes.
 abstract: The paper studies causality violation via closed timelike curves (CTCs) in Kerr–Newman
   and in two modified Kerr–Newman geometries (a noncommutative-inspired model and an f(R) modification).
   It quantifies the CTC region and shows that, in both modified models, parameters can be chosen
@@ -30,10 +30,10 @@ links:
 
 **Status:** Journal
 
-**Authors:** Vaishak Prasad; Rahul Srinivasan; Sashideep Gutti
+**Authors:** Vaishak Prasad, Rahul Srinivasan and Sashideep Gutti
 
 **Venue:** Phys. Rev. D 99, 024023 (2019)
 
 - arXiv: [1803.06666](https://arxiv.org/abs/1803.06666)
 
-Studies chronology protection and causal pathologies in modified Kerr-Newman spacetimes.
+We study chronology protection and causal pathologies in modified Kerr–Newman spacetimes.

@@ -10,7 +10,7 @@ authors:
 tags:
 - Dynamical horizons
 - Numerical relativity
-summary: Connects dynamical horizon quantities to gravitational wave emission in BBH mergers.
+summary: We relate dynamical horizon quantities to gravitational-wave emission in binary black hole mergers.
 abstract: The work proposes and demonstrates a way to extract “news from horizons” during BBH
   mergers by tracking quasi-local horizon quantities in numerical simulations. In particular,
   it relates the shear of the (dynamical) horizons to features in the emitted gravitational radiation,
@@ -32,10 +32,10 @@ links:
 
 **Status:** Journal
 
-**Authors:** Vaishak Prasad; Anshu Gupta; Sukanta Bose; Badri Krishnan; Erik Schnetter
+**Authors:** Vaishak Prasad, Anshu Gupta, Sukanta Bose, Badri Krishnan and Erik Schnetter
 
 **Venue:** Phys. Rev. Lett. 125, 121101 (2020)
 
 - arXiv: [2003.06215](https://arxiv.org/abs/2003.06215)
 
-Connects dynamical horizon quantities to gravitational wave emission in BBH mergers.
+We relate dynamical horizon quantities to gravitational-wave emission in binary black hole mergers.

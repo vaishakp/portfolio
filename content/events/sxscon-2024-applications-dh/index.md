@@ -1,7 +1,7 @@
 ---
 title: Applications of dynamical horizons in SpEC and SpECTRE
 date: 2024-08-16
-summary: Lightning talk on dynamical-horizon applications and tooling in SpEC/SpECTRE.
+summary: Lightning talk on applications of dynamical horizons and related tools in SpEC and SpECTRE.
 event: SXSCon2024 (lightning talk)
 location: ICERM, Providence, RI, USA
 tags:
@@ -12,4 +12,4 @@ tags:
 **Type:** Lightning talk
 **Location:** ICERM, Providence, RI, USA
 
-Lightning talk on dynamical-horizon applications and tooling in SpEC/SpECTRE.
+Lightning talk on applications of dynamical horizons and related tools in SpEC and SpECTRE.

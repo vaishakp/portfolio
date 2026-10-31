@@ -8,7 +8,7 @@ tags:
   - Preprint
   - Black-hole spins
   - Population inference
-summary: Shows that near-zero spin inferences for binary black holes may be driven by spin-prior choices.
+summary: We show that inferences of near-zero spins for binary black holes may be driven by the choice of spin prior.
 abstract: This work revisits spin-magnitude inference for binary black holes and shows that
   commonly used uniform-in-magnitude spin priors can under-explore moderate-to-high spin regions.
   A prior uniform in spin-vector configuration space yields different spin-magnitude inferences
@@ -26,10 +26,10 @@ links:
 ---
 **Status:** Preprint
 
-**Authors:** Vaishak Prasad; B. S. Sathyaprakash
+**Authors:** Vaishak Prasad and B. S. Sathyaprakash
 
 **Venue:** arXiv (gr-qc:2602.12859)
 
 - arXiv: [2602.12859](https://arxiv.org/abs/2602.12859)
 
-Shows that near-zero spin inferences for binary black holes may be driven by spin-prior choices.
+We show that inferences of near-zero spins for binary black holes may be driven by the choice of spin prior.

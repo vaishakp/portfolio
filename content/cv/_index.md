@@ -11,12 +11,12 @@ type: page
 
 ## Positions held {#positions}
 
-- **Jan 25 - Present** — Physics At the eXtreme (PAX) group, Institute for Gravitation and the Cosmos (IGC), The Pennsylvania State University (PSU). Eberly Post-doctoral Scholar, and Co-lead of the Cosmic Explorer Science Traceability Matrix - Testing General Relativity. With: Prof. B. S. Sathyaprakash
+- **Jan 25 - Present** — Physics At the eXtreme (PAX) group, Institute for Gravitation and the Cosmos (IGC), The Pennsylvania State University (PSU). Eberly Postdoctoral Scholar and co-lead of the Cosmic Explorer Science Traceability Matrix - Testing General Relativity. With: Prof. B. S. Sathyaprakash
 - **Mar 23 - Dec 24** — International Centre for Theoretical Sciences - Tata Institute of Fundamental Research (ICTS-TIFR), Bengaluru, India. Post-doctoral fellow. With: Dr. Prayush Kumar
 - **Nov 22 - Mar 23** — International Centre for Theoretical Sciences - Tata Institute of Fundamental Research (ICTS-TIFR), Bengaluru, India. Visiting student. Host: Dr. Prayush Kumar
 - **2016–22** — Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India. Senior Research Scholar and Shyama Prasad Mukherjee Fellow (CSIR)<br>PhD Supervisor: Prof. Sukanta Bose
 
-## Ph.D Thesis {#thesis}
+## Ph.D. Thesis {#thesis}
 
 - **Thesis Title** — Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation
 - **Supervisor** — Prof. Sukanta Bose
@@ -29,38 +29,38 @@ type: page
 
 ## Research Interests {#research-interests}
 
-- **Physics** — Dynamical horizons and strong-field black hole dynamics; numerical relativity; tests of general relativity; black hole spectroscopy and ringdown; binary black hole population inference; third-generation and space-based detector science (Cosmic Explorer, Einstein Telescope, LISA).
-- **Methods** — Gravitational wave data analysis and Bayesian inference; gravitational wave searches and template banks; waveform modelling and surrogates; high-performance computing; GPU computing; machine learning.
+- **Physics** — Dynamical horizons and strong-field black hole dynamics. Numerical relativity. Tests of general relativity. Black hole spectroscopy and ringdown. Binary black hole population inference. Third-generation and space-based detector science (Cosmic Explorer, Einstein Telescope, LISA).
+- **Methods** — Gravitational wave data analysis and Bayesian inference. Gravitational wave searches and template banks. Waveform modelling and surrogates. High-performance computing. GPU computing. Machine learning.
 
 ## Research and Work Experience {#research-and-work-experience}
 
-- **2018 -** — **Dynamical horizons and strong-field black hole dynamics.** Quasi-local horizon geometry in binary mergers; horizon multipoles, shear and tidal deformability; the universal structure of horizon formation; the quantitative area law and balance-law violation.
-- **2023 -** — **Tests of general relativity and black hole spectroscopy.** GR-informed ringdown modelling; multi-segment consistency tests; quasi-normal mode instabilities; the apparent GR violation in GW230814; maximum entropy in mergers.
-- **2025 -** — **Gravitational wave data analysis and inference.** Exact accelerated time-domain likelihoods; batched likelihood evaluation for nested sampling; performance and convergence of stochastic samplers; spin priors and population inference.
-- **2023 -** — **Waveform modelling, surrogates and template banks.** Spectral numerical relativity surrogates with analytic derivatives; massively parallel higher-order-mode template banks for precessing binaries; eccentric and precessing binary simulations.
-- **2018 -** — **Numerical relativity methods and infrastructure.** Cauchy-characteristic matching on compactified null slices; pseudo-spectral methods and numerical PDEs; apparent horizon finding in SpEC and SpECTRE; compile-time optimization and HPC benchmarking; comparison infrastructure for NR catalogues.
-- **2025 -** — **Next-generation detector science.** Science traceability and tests of general relativity for Cosmic Explorer; forecasting for third-generation and space-based detectors.
-- **2018 - 2021** — **Scientific computing and visualization.** Parallel computing and data I/O on HPC systems; 3D scientific visualization of numerical relativity data.
-- **2015 - 2020** — **Earlier work.** Causal structure of spacetime, cosmic censorship and chronology protection; black holes in higher dimensions; scattering of ringdown signals from black holes surrounded by matter; magnetohydrodynamics and galactic dynamos; cosmological parameter estimation from supernovae.
+- **2018 -** — **Dynamical horizons and strong-field black hole dynamics.** Quasi-local horizon geometry in binary mergers. Horizon multipoles, shear and tidal deformability. The universal structure of horizon formation. The quantitative area law and balance-law violation.
+- **2023 -** — **Tests of general relativity and black hole spectroscopy.** GR-informed ringdown modelling. Multi-segment consistency tests. Quasi-normal mode instabilities. The apparent GR violation in GW230814. Maximum entropy in mergers.
+- **2025 -** — **Gravitational wave data analysis and inference.** Exact accelerated time-domain likelihoods. Batched likelihood evaluation for nested sampling. Performance and convergence of stochastic samplers. Spin priors and population inference.
+- **2023 -** — **Waveform modelling, surrogates and template banks.** Spectral numerical relativity surrogates with analytic derivatives. Massively parallel higher-order-mode template banks for precessing binaries. Eccentric and precessing binary simulations.
+- **2018 -** — **Numerical relativity methods and infrastructure.** Cauchy-characteristic matching on compactified null slices. Pseudo-spectral methods and numerical PDEs. Apparent horizon finding in SpEC and SpECTRE. Compile-time optimization and HPC benchmarking. Comparison infrastructure for NR catalogues.
+- **2025 -** — **Next-generation detector science.** Science traceability and tests of general relativity for Cosmic Explorer. Forecasting for third-generation and space-based detectors.
+- **2018 - 2021** — **Scientific computing and visualization.** Parallel computing and data I/O on HPC systems. 3D scientific visualization of numerical relativity data.
+- **2015 - 2020** — **Earlier work.** Causal structure of spacetime, cosmic censorship and chronology protection. Black holes in higher dimensions. Scattering of ringdown signals from black holes surrounded by matter. Magnetohydrodynamics and galactic dynamos. Cosmological parameter estimation from supernovae.
 
 ## Publications {#publications}
 
 
 ### Journal articles and preprints
 
-1. Yu-Cun Xie, **Vaishak Prasad**. **Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers**. [gr-qc:2609.11819](https://arxiv.org/abs/2609.11819). ArXived 10 September 2026.
-1. **Vaishak Prasad**. **NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms**. [gr-qc:2609.09088](https://arxiv.org/abs/2609.09088). ArXived 8 September 2026.<br><span class="pub-note">Single author. Released with the public `nrhjsurrogate` package.</span>
+1. Yu-Cun Xie, **Vaishak Prasad**. **Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers**. [gr-qc:2609.11819](https://arxiv.org/abs/2609.11819). arXiv preprint, 10 September 2026.
+1. **Vaishak Prasad**. **NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms**. [gr-qc:2609.09088](https://arxiv.org/abs/2609.09088). arXiv preprint, 8 September 2026.<br><span class="pub-note">Single author. Released with the public `nrhjsurrogate` package.</span>
 1. **Vaishak Prasad**, Monica Rincón-Ramírez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta and B. S. Sathyaprakash. **Do black hole mergers maximize entropy?** [Int. J. Mod. Phys. D, 2641013](https://doi.org/10.1142/S0218271826410130). Published 27 August 2026.<br><span class="pub-note">Gravity Research Foundation 2026 essay, Honourable Mention.</span>
-1. Monica Rincón-Ramírez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta, **Vaishak Prasad** and B. S. Sathyaprakash. **Maximum Entropy Conjecture for Black Hole Mergers**. [Phys. Rev. Lett. 137, 021406](https://doi.org/10.1103/hvp6-ydbq), [arXiv:2601.22388](https://arxiv.org/abs/2601.22388). Published 10 July 2026.<br><span class="pub-note">Devised the numerical relativity method used to test the conjecture, framed in Bondi mass and angular momentum, and contributed the horizon-geometry analysis.</span>
-1. **Vaishak Prasad**. **Accelerated Time-domain Analysis for Gravitational Wave Astronomy**. [gr-qc:2603.06010](https://arxiv.org/abs/2603.06010). ArXived 6 March 2026.<br><span class="pub-note">Single author. Exact time-domain likelihood evaluation at near-FFT cost via the Gohberg–Semencul representation. Released with the `tdanalysis` package.</span>
-1. **Vaishak Prasad**. **Multi-Segment Consistency Tests of General Relativity**. [gr-qc:2603.05835](https://arxiv.org/abs/2603.05835). ArXived 6 March 2026.<br><span class="pub-note">Single author. Demonstrated on GW250114; to be proposed as a reviewed LVK test of general relativity.</span>
-1. **Vaishak Prasad** and B. S. Sathyaprakash. **Are black hole spins truly near-zero?** [gr-qc:2602.12859](https://arxiv.org/abs/2602.12859). ArXived 13 February 2026.
+1. Monica Rincón-Ramírez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta, **Vaishak Prasad** and B. S. Sathyaprakash. **Maximum Entropy Conjecture for Black Hole Mergers**. [Phys. Rev. Lett. 137, 021406](https://doi.org/10.1103/hvp6-ydbq), [arXiv:2601.22388](https://arxiv.org/abs/2601.22388). Published 10 July 2026.<br><span class="pub-note">Devised the numerical relativity method used to test the conjecture. The conjecture is framed in terms of the Bondi mass and angular momentum. Also contributed the horizon-geometry analysis.</span>
+1. **Vaishak Prasad**. **Accelerated Time-domain Analysis for Gravitational Wave Astronomy**. [gr-qc:2603.06010](https://arxiv.org/abs/2603.06010). arXiv preprint, 6 March 2026.<br><span class="pub-note">Single author. Exact time-domain likelihood evaluation at near-FFT cost via the Gohberg–Semencul representation. Released with the `tdanalysis` package.</span>
+1. **Vaishak Prasad**. **Multi-Segment Consistency Tests of General Relativity**. [gr-qc:2603.05835](https://arxiv.org/abs/2603.05835). arXiv preprint, 6 March 2026.<br><span class="pub-note">Single author. Demonstrated on GW250114. To be proposed as a reviewed LVK test of general relativity.</span>
+1. **Vaishak Prasad** and B. S. Sathyaprakash. **Are black hole spins truly near-zero?** [gr-qc:2602.12859](https://arxiv.org/abs/2602.12859). arXiv preprint, 13 February 2026.
 1. Divyajyoti, Isobel M. Romero-Shaw, **Vaishak Prasad**, Kaushik Paul, Chandra Kant Mishra, Prayush Kumar, Akash Maurya, Michael Boyle, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel. **Biased parameter inference of eccentric, spin-precessing binary black holes**. [Phys. Rev. D 113, 103022](https://doi.org/10.1103/jdkc-65lz), [arXiv:2510.04332](https://arxiv.org/abs/2510.04332). Published 12 May 2026.
-1. LVK collaboration, incl. **Vaishak Prasad**. **Black Hole Spectroscopy and Tests of General Relativity with GW250114**. [Phys. Rev. Lett. 136, 041403](https://doi.org/10.1103/6c61-fm1n), [arXiv:2509.08099](https://arxiv.org/abs/2509.08099). Published 30 January 2026.<br><span class="pub-note">Made critical contribution to the analysis and interpretation of the area law result, its connection with consistency test, the ringdown model, and review of results. Editors' Suggestion; featured in *Physics*.</span>
-1. LVK collaboration, incl. **Vaishak Prasad**. **GW250114: Testing Hawking's Area Law and the Kerr Nature of Black Holes**. [Phys. Rev. Lett. 135, 111403](https://doi.org/10.1103/kw5g-d732). Published 10 September 2025.<br><span class="pub-note">Made critical contribution to the analysis and interpretation of the area law result, and ringdown model.</span>
-1. LVK collaboration, incl. **Vaishak Prasad**. **GW230814: investigation of a loud gravitational-wave signal observed with a single detector**. [Astrophys. J. Lett. 1004, L23](https://doi.org/10.3847/2041-8213/ae2ad3), [arXiv:2509.07348](https://arxiv.org/abs/2509.07348). Published 18 June 2026.<br><span class="pub-note">Contributed the targeted NR simulation and to paper writing.</span>
+1. LVK collaboration, incl. **Vaishak Prasad**. **Black Hole Spectroscopy and Tests of General Relativity with GW250114**. [Phys. Rev. Lett. 136, 041403](https://doi.org/10.1103/6c61-fm1n), [arXiv:2509.08099](https://arxiv.org/abs/2509.08099). Published 30 January 2026.<br><span class="pub-note">Contributed to the analysis and interpretation of the area-law result and its connection with the consistency test. Also contributed to the ringdown model and the review of results. Editors' Suggestion. Featured in *Physics*.</span>
+1. LVK collaboration, incl. **Vaishak Prasad**. **GW250114: Testing Hawking's Area Law and the Kerr Nature of Black Holes**. [Phys. Rev. Lett. 135, 111403](https://doi.org/10.1103/kw5g-d732). Published 10 September 2025.<br><span class="pub-note">Contributed to the analysis and interpretation of the area-law result and to the ringdown model.</span>
+1. LVK collaboration, incl. **Vaishak Prasad**. **GW230814: investigation of a loud gravitational-wave signal observed with a single detector**. [Astrophys. J. Lett. 1004, L23](https://doi.org/10.3847/2041-8213/ae2ad3), [arXiv:2509.07348](https://arxiv.org/abs/2509.07348). Published 18 June 2026.<br><span class="pub-note">Provided the targeted numerical relativity simulation and contributed to writing the paper.</span>
 1. **Vaishak Prasad**. **The Shear at the Common Dynamical Horizon in Binary Black Hole Mergers and its Imprint in their Gravitational Radiation**. [Phys. Rev. D 111, 084070](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.084070). Published 28 April 2025.
-1. P. Ajith et. al, incl. **Vaishak Prasad**. **The Lunar Gravitational-wave Antenna: Mission Studies and Science Case**. [JCAP 01 (2025) 108](https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/108). Published 28 January 2025.<br><span class="pub-note">Author of the Testing GR section.</span>
+1. P. Ajith et al., incl. **Vaishak Prasad**. **The Lunar Gravitational-wave Antenna: Mission Studies and Science Case**. [JCAP 01 (2025) 108](https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/108). Published 28 January 2025.<br><span class="pub-note">Author of the Testing GR section.</span>
 1. **Vaishak Prasad**. **Tidal deformation of dynamical horizons in binary black hole mergers and its imprint on gravitational radiation**. [Phys. Rev. D 109, 044033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.044033), [arXiv:2109.01193](https://arxiv.org/abs/2109.01193). Published 16 February 2024.
 1. Sashideep Gutti, Shailesh Kulkarni, **Vaishak Prasad**. **Closed timelike curves and energy conditions in regular spacetimes**. [Eur. Phys. J. C (2022) 82: 1136](https://epjc.epj.org/articles/epjc/abs/2022/12/10052_2022_Article_11114/10052_2022_Article_11114.html). Published 15 December 2022.<br><span class="pub-note">Equal contribution.</span>
 1. **Vaishak Prasad**, Anshu Gupta, Sukanta Bose, Badri Krishnan. **Tidal deformation of dynamical horizons in binary black hole mergers**. [Phys. Rev. D 105, 044019](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.044019), [arXiv:2106.02595](https://arxiv.org/abs/2106.02595). Published 9 February 2022.
@@ -73,14 +73,14 @@ type: page
 ### Awarded
 
 - **May 2026** — **Honourable Mention, Gravity Research Foundation Awards for Essays on Gravitation 2026**, for *Do black hole mergers maximize entropy?*
-- **Aug 2026 - Jul 2029** — **co-Principal Investigator, NSF award PHY-2608011**, *Collaborative Research: Testing General Relativity with Gravitational Wave Observations* (USD 360,000; three years, 1 August 2026 to 31 July 2029; PI: Prof. B. S. Sathyaprakash). Conceived and authored the funded component on tests of general relativity through ringdown inference and spectroscopy informed by numerical relativity.
+- **Aug 2026 - Jul 2029** — **co-Principal Investigator, NSF award PHY-2608011**, *Collaborative Research: Testing General Relativity with Gravitational Wave Observations* (USD 360,000, 1 August 2026 to 31 July 2029, PI Prof. B. S. Sathyaprakash). Conceived and authored the funded component on tests of general relativity through ringdown inference and spectroscopy informed by numerical relativity.
 - **2026** — **NSF ACCESS computing allocations** PHY260122, PHY260124 and PHY260295.
-- **Nov 2025** — **APS Early Career Travel Award, MAS 2025** for making a good presentation at the APS Mid-Atlantic Section - Harrisburg 2025.
-- **Sep 2025 - Sep 2026** — **Principal Investigator, NSF ACCESS Explore Grant** PHY250294: Accelerated time domain analysis for gravitational wave astronomy.
+- **Nov 2025** — **APS Early Career Travel Award, MAS 2025** for a presentation at the APS Mid-Atlantic Section - Harrisburg 2025.
+- **Sep 2025 - Sep 2026** — **Principal Investigator, NSF ACCESS Explore Grant** PHY250294, *Accelerated time-domain analysis for gravitational wave astronomy*.
 - **Jan 2025 -** — **Eberly Post-Doctoral Fellowship**, Physics at the eXtreme (PAX) group, Institute for Gravitation and the Cosmos (IGC), Pennsylvania State University (PSU), PA, USA.
 - **Mar 2023 - Dec 2024** — **Post-Doctoral Fellowship**, International Centre for Theoretical Sciences - Tata Institute of Fundamental Research (ICTS-TIFR), Bengaluru, India.
 - **Jan 2018 - 2022** — **Shyama Prasad Mukherjee Fellowship**, Council of Scientific and Industrial Research (CSIR), Govt. of India.
-- **June 2016** — **Junior Research Fellowship** (JRF) offered at<br>• Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India.<br>• Tata Institute of Fundamental Research (TIFR), Mumbai, India.<br>• Indian Institute of Science (IISc), Bengaluru, India. **Accepted JRF position at IUCAA**
+- **June 2016** — **Junior Research Fellowship** (JRF) offered at<br>• Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India.<br>• Tata Institute of Fundamental Research (TIFR), Mumbai, India.<br>• Indian Institute of Science (IISc), Bengaluru, India. **Accepted the JRF position at IUCAA.**
 - **May-Jul 2015** — **G N Ramachandran Fellowship For Young Promising Researchers**, Indian Institute of Technology Madras (IITM).
 - **May-Jul 2015** — **Summer Research Fellowship**, Indian Institute of Technology Madras (IITM).
 - **Aug 2013** — Fellow, **Kishore Vaigyanik Protsahan Yojana** (KVPY), Department of Science and Technology (DST), Govt. of India.
@@ -131,37 +131,37 @@ type: page
 
 ### Seminars at IUCAA
 
-- **Jul 2022** — Ph.D submission seminar. ***Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and their Gravitational Radiation***
+- **Jul 2022** — Ph.D. submission seminar. ***Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and their Gravitational Radiation***
 - **Nov 2021** — A seminar on ***Tidal Deformability of Dynamical Horizons in Binary Black Hole Mergers*** in the IUCAA student seminars.
 - **Feb 2020** — A seminar on ***The relation between the shear and News in binary black hole mergers*** in the IUCAA student seminars.
 - **Jul 2018** — Talk on ***The Chronology Protection Problem*** in the monthly IUCAA last Friday talks.
 - **Jun 2018** — A seminar on ***Dynamical Black holes*** in the IUCAA Academic retreat.
 - **2018** — Talk on ***Dynamical horizons*** in the IUCAA Gravitational Wave Research Group.
-- **2018** — Delivered a discussion-talk series on ***Isolated and Dynamical Horizons*** to a subset of the IUCAA Gravitational Wave Research Group.
+- **2018** — Led a series of talks and discussions on ***Isolated and Dynamical Horizons*** for members of the IUCAA Gravitational Wave Research Group.
 
 ## Projects Guided, Mentoring and Teaching {#teaching}
 
 
 ### Supervision and mentoring
 
-- **2025 -** — Co-mentoring five to six graduate students in the Physics at the eXtreme (PAX) group, Penn State, working directly with each on their own projects.
-- **2025 -** — **Nathaniel Kirby** and **Sanika Khadkikar**, graduate students of Prof. B. S. Sathyaprakash, co-mentored on specific projects, including the reanalysis of the catalogued gravitational-wave events with geometrically motivated spin priors, PAX Group, Penn State.
+- **2025 -** — Co-mentoring five to six graduate students in the Physics at the eXtreme (PAX) group, Penn State, on their research projects.
+- **2025 -** — **Nathaniel Kirby** and **Sanika Khadkikar**, graduate students of Prof. B. S. Sathyaprakash, PAX Group, Penn State. Co-mentored on projects including the reanalysis of catalogued gravitational-wave events with geometrically motivated spin priors.
 - **Aug-Sep 2025** — **Giovanni Benetti**, co-tutored Master's project on *Impact of waveform systematics on the sky-localization of gravitational wave sources*, PAX Group, Penn State.
 - **Jul-Aug 2025** — **Alexander Torres**, supervised NSF REU project on *Modeling the merger time of binary black holes using Machine Learning and Numerical Relativity Data*, PAX Group, Penn State.
-- **2023 -** — [**Ms. Bhuvaneshwari Kashi**](https://www.icts.res.in/people/bhuvaneshwari-kashi), co-supervised visualizations from numerical relativity simulations of black hole mergers, ICTS-TIFR, Bengaluru.
+- **2023 -** — [**Bhuvaneshwari Kashi**](https://www.icts.res.in/people/bhuvaneshwari-kashi), co-supervised visualizations from numerical relativity simulations of black hole mergers, ICTS-TIFR, Bengaluru.
 - **2023** — **Arushi Kolluru**, co-supervised project on gravitational waves from binary black hole mergers, ICTS-TIFR, Bengaluru.
-- **2019-20** — **Mr. Sanjeet Sahasrabudhe**, Bachelor's thesis supervisor. Thesis on *Numerical methods for solving classical dynamical systems and their application to the precession of the orbits*. [Link to the thesis](https://drive.google.com/file/d/16JH3TYjBpANzw4bmOog-YmGyOckdXeRM/view?usp=sharing). Currently working as a Data Scientist.
+- **2019-20** — **Sanjeet Sahasrabudhe**. Supervised the Bachelor's thesis on *Numerical methods for solving classical dynamical systems and their application to the precession of the orbits*. [Link to the thesis](https://drive.google.com/file/d/16JH3TYjBpANzw4bmOog-YmGyOckdXeRM/view?usp=sharing). Currently working as a Data Scientist.
 
 ### Teaching
 
-- **Fall 2026** — Taught a few lectures of the graduate course on **general relativity** (Prof. B. S. Sathyaprakash), Pennsylvania State University, and assessed students' assignments.
-- **Jun 2025** — Lecturer on Stochastic Sampling, and tutor, for the course on the Geometric Approach to Gravitational Wave Data Analysis (Prof. B. S. Sathyaprakash), [**NP3M Summer School 2025**](https://np3m.org/school_2025.html), Indiana University, IN, USA.
+- **Fall 2026** — Taught a few lectures of the graduate course on **general relativity** (Prof. B. S. Sathyaprakash), Pennsylvania State University. Assessed students' assignments.
+- **Jun 2025** — Lecturer on stochastic sampling and tutor for the course on the Geometric Approach to Gravitational Wave Data Analysis (Prof. B. S. Sathyaprakash), [**NP3M Summer School 2025**](https://np3m.org/school_2025.html), Indiana University, IN, USA.
 - **Jul 2024** — Tutor for the course on ultralight boson clouds around black holes (Dr. Nils Siemonsen), [**Summer School on Gravitational Wave Astronomy**](https://icts.res.in/program/gws2024), ICTS-TIFR, Bengaluru.
 - **Oct 2023** — Tutor for Prof. Badri Krishnan's course on Dynamical Horizons, [**IAGRG School on Gravitation and Cosmology**](https://www.icts.res.in/program/IAGRG), ICTS-TIFR, Bengaluru.
 - **Jul 2023** — Tutor for Prof. Harald Pfeiffer's course on pseudo-spectral methods, [SpECTRE](https://spectre-code.org/) and numerical relativity, [**Summer School on Gravitational-Wave Astronomy**](https://www.icts.res.in/program/gws2023), ICTS-TIFR, Bengaluru.
 - **Jul 2023** — Tutor for Prof. Geoffrey Lovelace's course on Numerical Relativity, [**Summer School on Gravitational-Wave Astronomy**](https://www.icts.res.in/program/gws2023), ICTS-TIFR, Bengaluru.
 
-## Commission of Trust {#service}
+## Academic Service {#service}
 
 - Member, *LIGO-Virgo-KAGRA* Collaboration and *Simulating eXtreme Spacetimes* (SXS) Collaboration.
 - *International Gravitational-Wave Observatory Network* (IGWN): pledged time to build a surrogate model for precessing binaries.
@@ -178,10 +178,10 @@ type: page
 ## Science outreach activities {#outreach}
 
 - **Aug 2023** — Host for the [*Chandrayaan-3 live soft-landing*](https://www.isro.gov.in/Chandrayaan3_Details.html) event at Brigade Panorama housing society, Bengaluru, 23 August 2023.
-- **Sep 2020** — Interaction program for answering questions by the public on LIGO outreach activities, [*LIGO tour with Minecraft*](https://www.eventbrite.com.au/e/exploring-gravitational-wave-observatories-in-minecraft-registration-116369427089), 14 September 2020.
+- **Sep 2020** — Public question-and-answer session on LIGO outreach activities, [*LIGO tour with Minecraft*](https://www.eventbrite.com.au/e/exploring-gravitational-wave-observatories-in-minecraft-registration-116369427089), 14 September 2020.
 - **Dec 2019** — Short video clip on *Types of Eclipses* on the occasion of the annular solar eclipse, IUCAA Science Centre, 26 December 2019.
 - **Aug 2019** — Vigyan Samagam 2019, Bengaluru, India. Popular science talk on ***Gravitational Waves*** for school children, delivered in the local language Kannada.
-- **Nov 2018** — Interaction program at the IUCAA Pulastya Science Festival: *Q&A with a scientist*, IUCAA Science Centre, 26 November 2018.
+- **Nov 2018** — *Q&A with a scientist*, a public discussion at the IUCAA Pulastya Science Festival, IUCAA Science Centre, 26 November 2018.
 - National Science Day (NSD) activities at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India.<br>• Poster presentation on stellar formation and evolution, NSD 2016, 17, 19.<br>• Quiz master for the science quiz, NSD 2018.<br>• Organizing team for the NSD quiz, 2018, 19.
 
 ## Computing skills and interests {#skills}
@@ -197,7 +197,7 @@ type: page
 ## Codes developed {#codes}
 
 - **tdanalysis** — An accelerated, GPU-enabled exact time-domain inference engine for gravitational wave astronomy, using the Gohberg–Semencul representation of Toeplitz inverses.
-- **nrhjsurrogate** — A GPU-native numerical relativity surrogate waveform family carrying its own analytic derivatives and error estimates. Released on PyPI.
+- **nrhjsurrogate** — A GPU-native numerical relativity surrogate waveform family providing analytic derivatives and error estimates. Released on PyPI.
 - **spectral/spectools** — A collection of spectral transforms and helpers with built-in error monitoring. Released on PyPI.
 - **paralleltemplatebank** — A massively parallel reduced-spin template bank generator for precessing compact binaries with higher modes.
 - **purohit** — A library to semi-automate gravitational wave parameter estimation.
@@ -208,10 +208,10 @@ type: page
 - **qlmtools** — A library of functions for analysis and handling of 2D dynamical horizon numerical data.
 - **quasinormal** — A library of functions for analysis of quasi-normal modes.
 - **wfs_match** — An MPI-based parallel template parameter estimation routine.
-- **yumcee** — An MPI-based Markov-Chain and Nested Monte Carlo sampler.
+- **yumcee** — An MPI-based Markov chain and nested Monte Carlo sampler.
 - **null_solver** — An implementation of the dual-null characteristic numerical solver for scattering problems.
 - **pkginstaller** — A simple package installer for HPCs.
-- **nrcatalogtools** — One of the contributors. A unified interface to various numerical relativity gravitational waveform catalogs.
+- **nrcatalogtools** — A unified interface to numerical relativity waveform catalogs. Contributor.
 
 ## Communication {#communication}
 

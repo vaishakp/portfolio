@@ -2,7 +2,7 @@
 title: A maximum entropy puzzle in quasi-circular binary mergers
 date: 2025-11-25
 authors:
-  - Monica Rincon-Ramirez
+  - Monica Rincón-Ramírez
   - Nathan K. Johnson-McDaniel
   - Eugenio Bianchi
   - Ish Gupta
@@ -10,14 +10,14 @@ authors:
   - B. S. Sathyaprakash
 tags:
   - In preparation
-summary: Investigates a maximum-entropy puzzle emerging in quasi-circular binary mergers.
+summary: The remnant of a quasi-circular binary black hole merger is conjectured to be the entropy-maximizing state consistent with the system's Bondi mass and angular momentum.
 featured: false
 publication: In preparation
 ---
 
 **Status:** In preparation
 
-**Authors:** Monica Rincon-Ramirez; Nathan K. Johnson-McDaniel; Eugenio Bianchi; Ish Gupta; Vaishak Prasad; B. S. Sathyaprakash
+**Authors:** Monica Rincón-Ramírez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta, Vaishak Prasad and B. S. Sathyaprakash
 
 **Venue:** In preparation
 
