@@ -277,7 +277,7 @@ def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -
                 subsection = latex_to_md(value)
                 if skipped(subsection, include_in_prep, include_pending):
                     continue
-                heading = "Published and preprints" if subsection.lower().startswith("published") else subsection
+                heading = "Journal articles and preprints" if subsection.lower().startswith("published") else subsection
                 lines.append(f"\n### {heading}\n")
                 continue
             if skipped(subsection, include_in_prep, include_pending):

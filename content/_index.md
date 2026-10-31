@@ -41,13 +41,13 @@ sections:
       subtitle: ''
       text: |-
         <figure class="bbh-float">
-          <a href="/animation/" aria-label="Binary black hole merger animation">
+          <a href="/animation/" aria-label="Visualization of a binary black hole merger">
             <video autoplay muted loop playsinline preload="metadata" poster="/media/bbh/q1a0_b_square_poster.jpg">
               <source src="/media/bbh/q1a0_b_square720.webm" type="video/webm">
               <source src="/media/bbh/q1a0_b_square720.mp4" type="video/mp4">
             </video>
           </a>
-          <figcaption>Gravitational waves from an equal-mass binary black hole merger, simulated with the Einstein Toolkit. <a href="/animation/">About the animation</a></figcaption>
+          <figcaption>Gravitational radiation from an equal-mass binary black hole merger, ray-traced from an Einstein Toolkit simulation. <a href="/animation/">Details of the visualization</a></figcaption>
         </figure>
 
         I study strong-field gravity in black-hole mergers: how dynamical horizons deform, relax, and leave measurable structure in gravitational waves.

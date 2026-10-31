@@ -1,5 +1,5 @@
 ---
-title: A Binary Black Hole Merger
+title: Visualization of a Binary Black Hole Merger with Ray Tracing
 date: 2026-10-31
 type: page
 ---
@@ -9,33 +9,33 @@ type: page
     <source src="/media/bbh/q1a0_b_1080p.webm" type="video/webm">
     <source src="/media/bbh/q1a0_b_1080p.mp4" type="video/mp4">
   </video>
-  <figcaption>Two equal-mass, non-spinning black holes spiral together, merge, and ring down to a single spinning black hole. Einstein Toolkit simulation; animation rendered with vistools.</figcaption>
+  <figcaption>Inspiral, merger and ringdown of an equal-mass, non-spinning binary black hole. Numerical relativity simulation with the Einstein Toolkit; rendered with vistools.</figcaption>
 </figure>
 
-## What you are seeing
+## Rendering
 
-The glowing ball is the gravitational wave signal of the binary. Colour shows the strength of the
-wave, from dark blue (weak) through green and yellow to orange (strong). The spiral arms follow the
-orbit: each shell is a wavefront emitted earlier in the inspiral and carried outward at the speed of
-light, so the outer shells show the binary as it was, and the inner shells as it is now.
+The gravitational-wave field is volume-rendered by ray marching. At each sample along a camera ray,
+the field is evaluated directly from the spin-weight −2 spherical-harmonic modes of the strain
+(ℓ ≤ 4) at the retarded time *t* − *r*/*s*, where *s* is a radial scale chosen for display. The
+plotted quantity is the plus polarization without its 1/*r* falloff, so that the amplitude is
+comparable throughout the volume. Only the positive crests are drawn, as nested isosurfaces; the
+colour encodes the field value, from dark blue (low) through green and yellow to orange (high).
 
-As the holes approach, the orbit speeds up and the shells crowd together. At merger the signal is
-at its strongest; afterwards the remnant black hole settles down and the last shells move out and
-fade.
+The background star field is gravitationally lensed by ray tracing. Near each black hole, rays are
+integrated as null geodesics of the Kerr metric of that hole, with a fourth-order Runge–Kutta scheme
+in Kerr–Schild coordinates; at larger impact parameters the analytic weak-field deflection,
+including the first-order Lense–Thirring term, is used. Each black hole of the inspiral is a
+separate lens, and the lenses are replaced by the remnant around merger. Rays that cross a horizon
+are captured, so each black hole appears as its shadow. The wave field itself is not lensed.
 
-The starfield behind the binary is bent by the black holes. Each hole, and then the remnant, acts
-as a gravitational lens computed from its mass and spin.
-
-## The simulation
+## Simulation
 
 - **System:** equal-mass, non-spinning binary black hole (mass ratio 1), evolved with the
   [Einstein Toolkit](https://einsteintoolkit.org/).
-- **Waves:** the strain is computed from the curvature scalar Ψ₄, extrapolated from finite
-  extraction spheres to future null infinity, and built from the spherical-harmonic modes with
-  ℓ ≤ 4. The plotted field is the plus polarisation multiplied by the distance from the source,
-  so its amplitude stays comparable from the centre to the edge of the ball.
-- **Remnant:** mass 0.952 and dimensionless spin 0.687, in units of the total initial mass,
-  measured on the final apparent horizon.
+- **Gravitational waves:** Ψ₄ extracted on finite-radius spheres, extrapolated to future null
+  infinity, and integrated twice in time to obtain the strain.
+- **Remnant:** mass 0.952 *M* and dimensionless spin 0.687, where *M* is the total initial mass,
+  computed from the quasi-local measures on the final apparent horizon.
 
 ## Downloads
 

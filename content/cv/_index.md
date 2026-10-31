@@ -46,7 +46,7 @@ type: page
 ## Publications {#publications}
 
 
-### Published and preprints
+### Journal articles and preprints
 
 1. Yu-Cun Xie, **Vaishak Prasad**. **Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers**. [gr-qc:2609.11819](https://arxiv.org/abs/2609.11819). ArXived 10 September 2026.
 1. **Vaishak Prasad**. **NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms**. [gr-qc:2609.09088](https://arxiv.org/abs/2609.09088). ArXived 8 September 2026.<br><span class="pub-note">Single author. Released with the public `nrhjsurrogate` package.</span>
