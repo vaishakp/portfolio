@@ -444,6 +444,19 @@ def main() -> int:
     parser.add_argument("--content-dir", type=Path, default=Path("content/publications"))
     parser.add_argument("--max-results", type=int, default=75)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--skip-indexes",
+        action="store_true",
+        help="leave _index.md and _index_full.md alone (the list page is generated "
+        "from the CV by scripts/cv_to_site.py)",
+    )
+    parser.add_argument(
+        "--exclude-arxiv",
+        nargs="*",
+        default=[],
+        metavar="ID",
+        help="arXiv ids never to add or update on the site",
+    )
     args = parser.parse_args()
 
     entries = load_entries(args.content_dir)
@@ -453,6 +466,8 @@ def main() -> int:
     time.sleep(3)  # Be polite to public APIs when this runs on a schedule.
     records.extend(query_inspire(args.inspire_query, args.max_results))
     records = merge_records(records)
+    excluded = {normalize_arxiv_id(value) for value in args.exclude_arxiv}
+    records = [record for record in records if record.get("arxiv_id") not in excluded]
 
     changed = False
     for record in records:
@@ -469,7 +484,7 @@ def main() -> int:
             create_entry(args.content_dir, record)
             changed = True
 
-    if not args.dry_run and refresh_indexes(args.content_dir):
+    if not args.dry_run and not args.skip_indexes and refresh_indexes(args.content_dir):
         changed = True
 
     print("Publication update complete." if changed else "No publication changes found.")

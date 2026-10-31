@@ -35,7 +35,9 @@ jobs:
             --author "Vaishak Prasad" \
             --inspire-query 'a "Vaishak Prasad"' \
             --content-dir content/publications \
-            --max-results 100
+            --max-results 100 \
+            --skip-indexes \
+            --exclude-arxiv 2610.19688
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6

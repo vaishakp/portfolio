@@ -43,7 +43,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/vaishakprasad
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=vaishakprasad
+    url: https://scholar.google.com/citations?user=Qv5niH4AAAAJ
 #  - icon: academicons/orcid
 #    url: https://orcid.org/0000-0002-1825-0097
 

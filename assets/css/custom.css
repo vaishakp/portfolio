@@ -50,3 +50,25 @@
     margin: 0 auto 1.5rem;
   }
 }
+
+/* Contribution notes under the papers on the generated /cv/ page. */
+.pub-note {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.9em;
+  font-style: italic;
+  color: #94a3b8;
+}
+
+/* One-page CV: the contents line at the top, and headings that clear the fixed
+   navigation bar when reached through a menu link such as /cv/#talks. */
+.cv-contents {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: #94a3b8;
+}
+
+.prose h2[id],
+.prose h3[id] {
+  scroll-margin-top: 5rem;
+}
