@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: dark
   color: indigo
 
 # SEO
@@ -33,7 +33,7 @@ header:
     block: 'navbar'
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
       text: 'Vaishak Prasad'
 
