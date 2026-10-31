@@ -18,7 +18,7 @@ type: page
 
 ## Ph.D. Thesis {#thesis}
 
-- **Thesis Title** — Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation
+- **Thesis Title** — [Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation](https://www.vaishakprasad.com/uploads/vaishak_phd_thesis.pdf)
 - **Supervisor** — Prof. Sukanta Bose
 - **Defended** — March 2023
 - **Degree awarded** — 29 March 2023<br>Jawaharlal Nehru University, New Delhi (through IUCAA, Pune)
@@ -66,6 +66,12 @@ type: page
 1. **Vaishak Prasad**, Anshu Gupta, Sukanta Bose, Badri Krishnan. **Tidal deformation of dynamical horizons in binary black hole mergers**. [Phys. Rev. D 105, 044019](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.044019), [arXiv:2106.02595](https://arxiv.org/abs/2106.02595). Published 9 February 2022.
 1. **Vaishak Prasad**, Anshu Gupta, Sukanta Bose, Badri Krishnan, and Erik Schnetter. **News from Horizons in Binary Black Hole Mergers**. [Phys. Rev. Lett. 125, 121101](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.121101), [arXiv:2003.06215](https://arxiv.org/abs/2003.06215). Published 16 September 2020.
 1. **Vaishak Prasad**, Rahul Srinivasan, Sashideep Gutti. **The Chronology Protection Problem in modified Kerr-Newman space-times**. [Phys. Rev. D 99, 024023](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.024023), [arXiv:1803.06666](https://arxiv.org/abs/1803.06666). Published 14 January 2019.
+
+### Theses and reports
+
+- **2023** — [Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation](https://www.vaishakprasad.com/uploads/vaishak_phd_thesis.pdf). Ph.D. thesis, Jawaharlal Nehru University (IUCAA, Pune). Supervisor: Prof. Sukanta Bose.
+- **2017** — [Large Scale Magnetic Fields and the Turbulent Dynamo](https://www.vaishakprasad.com/uploads/vaishak_turbulent_dynamo_report_2017.pdf). Project report, IUCAA-NCRA Graduate School. Supervisor: Prof. Kandaswamy Subramanian.
+- **2014** — [Turbulent Diffusion](https://www.vaishakprasad.com/uploads/vaishak_turbulent_diffusion_report_2014.pdf). Practice School report, BITS Pilani, at IUCAA, Pune.
 
 ## Fellowships, Grants, and Awards {#awards}
 

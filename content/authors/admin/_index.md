@@ -57,7 +57,7 @@ past-light-cone:
     date_start: 2016-08-01
     date_end: 2023-03-29
     summary: |
-      Thesis on _Strong Gravity Physics of Dynamical Horizons in Binary Black Hole Mergers and its Imprint in their Gravitational Radiation_. Supervised by Prof. Sukanta Bose.
+      Thesis on [_Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation_](/uploads/vaishak_phd_thesis.pdf). Supervised by Prof. Sukanta Bose.
   - area: Int. M.Sc. (Hons.) Physics
     institution: Birla Institute of Technology and Science, Pilani - Hyderabad Campus
     date_start: 2012-07-01

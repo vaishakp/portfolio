@@ -286,7 +286,7 @@ def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -
                 continue
             if skipped(subsection, include_in_prep, include_pending):
                 continue
-            if section == "Publications":
+            if section == "Publications" and kind == "cventry":
                 if any(arxiv_id in value[4] for arxiv_id in EXCLUDED_ARXIV):
                     continue
                 lines.append(f"1. {publication_line(value)}")
