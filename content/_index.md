@@ -54,7 +54,7 @@ sections:
 
         My work connects numerical relativity, black-hole perturbation theory, and gravitational-wave data analysis. Recent themes include horizon shear and source multipoles in binary mergers, black-hole spectroscopy and area-law tests with high signal-to-noise events such as GW250114, accelerated time-domain inference, and waveform systematics for eccentric and precessing binaries.
 
-        A further focus is computational: parallel and heterogeneous algorithms and robust analysis pipelines for next-generation detectors.
+        I develop parallel and heterogeneous algorithms and data-analysis pipelines for next-generation detectors.
     design:
       css_class: research-summary
       columns: '1'

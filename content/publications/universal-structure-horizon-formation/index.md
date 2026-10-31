@@ -8,7 +8,7 @@ tags:
   - Dynamical horizons
   - Numerical relativity
   - Preprint
-summary: The first common apparent horizon of a generic binary black hole merger forms with a universal square-root structure, confirmed in three simulations including an eccentric, precessing, unequal-mass binary.
+summary: The first common apparent horizon of a generic binary black hole merger forms with a universal square-root structure. Three simulations confirm the prediction, including one of an eccentric, precessing, unequal-mass binary.
 abstract: >-
   We derive the local structure of the first common apparent horizon in a generic binary-black-hole
   merger. This event occurs in the fully nonlinear regime, outside the standard regimes of
@@ -46,7 +46,7 @@ links:
 
 **Venue:** arXiv:2609.11819 (2026)
 
-The first common apparent horizon in a binary black hole merger forms in the fully nonlinear regime,
-yet its local structure is universal: the outer and inner horizon branches separate as the square
-root of the time since formation. The prediction is confirmed in three simulations, including an
-eccentric, precessing, unequal-mass binary.
+The first common apparent horizon in a binary black hole merger forms in the fully nonlinear regime.
+Its local structure is universal. The outer and inner horizon branches separate as the square root of
+the time since formation. Three simulations confirm the prediction, including one of an eccentric,
+precessing, unequal-mass binary.
