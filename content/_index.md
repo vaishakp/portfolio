@@ -72,18 +72,12 @@ sections:
         text: All publications
     design:
       view: citation
-  - block: collection
+  - block: cv-talks
     id: talks
     content:
       title: Recent Talks
-      count: 5
-      filters:
-        folders:
-          - events
+      count: 6
       archive:
-        enable: true
         link: /cv/#talks
         text: All talks
-    design:
-      view: date-title-summary
 ---

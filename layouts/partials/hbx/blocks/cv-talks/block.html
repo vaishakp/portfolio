@@ -1,0 +1,29 @@
+{{/* Most recent talks, from data/cv_talks.json (written from the LaTeX CV by
+     scripts/cv_to_site.py). Options: content.title, content.count (default 6),
+     content.archive.link and content.archive.text for the button below. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $count := $block.content.count | default 6 }}
+{{ $talks := site.Data.cv_talks | default slice }}
+
+<div class="container mx-auto max-w-screen-lg px-8 xl:px-5">
+  <div class="mb-10 text-center text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $block.content.title | default "Recent Talks" }}
+  </div>
+
+  <ul class="cv-talks">
+    {{ range first $count $talks }}
+    <li>
+      <span class="cv-talks-date">{{ .date }}</span>
+      <span class="cv-talks-text">{{ .text | $page.RenderString }}{{ if not .invited }} <span class="cv-talks-kind">Contributed</span>{{ end }}</span>
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ with $block.content.archive }}
+  <div class="mt-10 flex justify-center">
+    <a class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+       href="{{ .link | relLangURL }}">{{ .text | default "All talks" }}</a>
+  </div>
+  {{ end }}
+</div>

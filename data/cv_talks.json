@@ -1,0 +1,275 @@
+[
+ {
+  "date": "Aug 2026",
+  "sort": "2026-08",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Goethe University Frankfurt, Germany. ***On the Role of Numerical Relativity in Testing GR using LIGO-Virgo-KAGRA Observations of Binary Black Hole Mergers***"
+ },
+ {
+  "date": "Jul 2026",
+  "sort": "2026-07",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "School of Physics and Astronomy, University of Nottingham, UK. ***Precision Strong-Field Gravity with Gravitational Waves: Consistency Tests, Black-Hole Spins, and Exceptional Events***"
+ },
+ {
+  "date": "Jul 2026",
+  "sort": "2026-07",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Scuola Internazionale Superiore di Studi Avanzati (SISSA), Trieste, Italy. ***Precision Strong-Field Gravity with Gravitational Waves: Consistency Tests, Black-Hole Spins, and Exceptional Events***"
+ },
+ {
+  "date": "Jul 2026",
+  "sort": "2026-07",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Gran Sasso Science Institute (GSSI), L'Aquila, Italy. ***Precision Strong-Field Gravity with Gravitational Waves: Black-Hole Spins, Waveform Systematics, and Exceptional Events***"
+ },
+ {
+  "date": "Jul 2026",
+  "sort": "2026-07",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Theoretical Physics Institute, Friedrich Schiller University Jena, Germany. Two research seminars: ***On the Role of Numerical Relativity in Testing GR using LIGO-Virgo-KAGRA Observations of Binary Black Hole Mergers*** and ***Strong field dynamics of dynamical horizons in binary mergers***"
+ },
+ {
+  "date": "Jun 2026",
+  "sort": "2026-06",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Astrophysical and Cosmological Relativity division, Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Potsdam, Germany. ***Precision Parameter Estimation, Strong Field Tests of GR, and Spin Inference for Future Detections***"
+ },
+ {
+  "date": "Jun 2026",
+  "sort": "2026-06",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Gravitational Physics group, School of Physics and Astronomy, Cardiff University, UK. ***Parameter Estimation and Precision Tests of GR for Next-Generation Gravitational Wave Detections***"
+ },
+ {
+  "date": "Jun 2026",
+  "sort": "2026-06",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Department of Physics and Astronomy, Washington State University, Pullman, WA (online seminar). ***Parameter Estimation and Precision Tests of GR for Next-Generation Gravitational Wave Detections***"
+ },
+ {
+  "date": "Jun 2026",
+  "sort": "2026-06",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Eastern Gravity Meeting 2026, Cornell University, Ithaca, NY](https://www.black-holes.org/egm2026). Contributed talk on ***Multi-segment consistency tests of General Relativity***"
+ },
+ {
+  "date": "May 2026",
+  "sort": "2026-05",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Institute for Gravitational Research, University of Glasgow, UK. ***Precision Parameter Estimation, Strong Field Tests of GR, and Spin Inference for Future Detections***"
+ },
+ {
+  "date": "Mar 2026",
+  "sort": "2026-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "Strong Gravity Seminar, Institute for Gravitation and the Cosmos, Pennsylvania State University. ***Testing Black Holes in General Relativity Using their Horizon Areas***"
+ },
+ {
+  "date": "Mar 2026",
+  "sort": "2026-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Beginner's Guide to Modeling for Gravitational Wave Detection, APS Global Physics Summit 2026, Denver, CO](https://summit.aps.org/smt/2026/events/APR-G77). ***Numerical Relativity in Gravitational-Wave Astronomy: From Waveforms to Horizons***"
+ },
+ {
+  "date": "Mar 2026",
+  "sort": "2026-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Gravitational Physics Seminar Series, IIT Gandhinagar and IACS Kolkata, India](https://physics.iitgn.ac.in/gps/). ***A Maximum Entropy Conjecture for Binary Black Hole Mergers***"
+ },
+ {
+  "date": "Jun 2025",
+  "sort": "2025-06",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[NP3M Summer School, Indiana University, IN](https://np3m.org/school_2025.html). Invited lecture on ***Introduction to stochastic sampling***"
+ },
+ {
+  "date": "May 2025",
+  "sort": "2025-05",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Science Traceability Matrix for Cosmic Explorer, Penn State, State College, PA](http://ce-stm-workshop.science.psu.edu/). Talk on ***Overview of Science Traceability Matrix - Tests of General Relativity***"
+ },
+ {
+  "date": "Apr 2025",
+  "sort": "2025-04",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[APS Global Summit, Anaheim, CA](https://www.aps.org/events/2025/joint-meeting). Talk on ***News from dynamical horizons in binary black hole mergers***"
+ },
+ {
+  "date": "Mar 2025",
+  "sort": "2025-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[APS DGRAV Seminar Series](https://engage.aps.org/dgrav/resources/seminar-series). ***Strong field physics of dynamical horizons in binary black hole mergers and its imprint in their gravitational radiation***"
+ },
+ {
+  "date": "Aug 2024",
+  "sort": "2024-08",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Black Holes Inside Out, NBI, Copenhagen](https://strong-gr.com/black-holes-inside-and-out/). Poster on ***News from Horizons in BBH mergers***"
+ },
+ {
+  "date": "Aug 2024",
+  "sort": "2024-08",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Ringdown Inside Out, NBI, Copenhagen](https://strong-gr.com/ringdown-inside-and-out/). Contributory discussion on ***Quasi-normal ringing at the common dynamical horizons in BBH mergers***"
+ },
+ {
+  "date": "Aug 2024",
+  "sort": "2024-08",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[SXSCon2024, ICERM](https://icerm.brown.edu/topical_workshops/tw-24-ses/). SpEC Developer session on ***Compile-time optimization of SpEC simulations: How to make the best of HPCs***"
+ },
+ {
+  "date": "Aug 2024",
+  "sort": "2024-08",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[SXSCon2024, ICERM](https://icerm.brown.edu/topical_workshops/tw-24-ses/). Lightning talk on ***Applications of dynamical horizons in SpEC and SpECTRE***"
+ },
+ {
+  "date": "Jul 2024",
+  "sort": "2024-07",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Physics at the eXtreme (PAX) Group, Pennsylvania State University](https://sites.psu.edu/infinity/). ***Dynamical Horizons and Numerical Relativity: Strong correlations***"
+ },
+ {
+  "date": "Mar 2024",
+  "sort": "2024-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Numerical and Analytical Relativity (NAR-2024)](https://nar24.iiita.ac.in/). ***Physics of Dynamical Horizons and their Applications to Numerical Relativity***"
+ },
+ {
+  "date": "Mar 2024",
+  "sort": "2024-03",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Centre for Strings, Gravitation and Cosmology (CSGC), IIT Madras, Chennai, India](https://ioe.iitm.ac.in/project/strings-gravitation-and-cosmology). ***Tidal deformation of dynamical horizons in binary black hole mergers and its imprint in their gravitational radiation***"
+ },
+ {
+  "date": "Feb 2024",
+  "sort": "2024-02",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Dept. of Physics, IIT Bombay, Mumbai, India](https://www.phy.iitb.ac.in/en/research/astronomy-cosmology-gravity). ***Tidal deformation of dynamical horizons in binary black hole mergers and its imprint in their gravitational radiation***"
+ },
+ {
+  "date": "Feb 2024",
+  "sort": "2024-02",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Gravity wave group, IIT Madras, Chennai, India](https://ioe.iitm.ac.in/project/strings-gravitation-and-cosmology). Invited lecture on ***Numerical Relativity***"
+ },
+ {
+  "date": "Dec 2023",
+  "sort": "2023-12",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[International Conference on Gravitation and Cosmology (ICGC), IIT Guwahati](https://indico.cern.ch/event/1268737/). Talk on ***Tidal deformation of dynamical horizons in binary black hole mergers and its imprint in their gravitational radiation***"
+ },
+ {
+  "date": "Jul 2022",
+  "sort": "2022-07",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "Ph.D. submission seminar. ***Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and their Gravitational Radiation***"
+ },
+ {
+  "date": "Feb 2022",
+  "sort": "2022-02",
+  "invited": true,
+  "group": "Invited Talks and Seminars",
+  "text": "[Second Chennai Symposium on Gravitation and Cosmology](https://physics.iitm.ac.in/~csgc/events/csgc/csgc-2022.html) (Virtual). ***Tidal deformability of dynamical horizons in binary black hole mergers***"
+ },
+ {
+  "date": "Nov 2021",
+  "sort": "2021-11",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "A seminar on ***Tidal Deformability of Dynamical Horizons in Binary Black Hole Mergers*** in the IUCAA student seminars."
+ },
+ {
+  "date": "Jul 2021",
+  "sort": "2021-07",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Amaldi 14](https://www.amaldi14.org/). Poster on ***Tidal deformability of dynamical horizons in binary black hole mergers***"
+ },
+ {
+  "date": "Feb 2020",
+  "sort": "2020-02",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "A seminar on ***The relation between the shear and News in binary black hole mergers*** in the IUCAA student seminars."
+ },
+ {
+  "date": "Dec 2019",
+  "sort": "2019-12",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[International Conference on Gravitation and Cosmology (ICGC), IISER Mohali](http://web.iisermohali.ac.in/web/icgc2019/index.html). Talk on ***The relation between horizon shear and gravitational waves at null infinity***"
+ },
+ {
+  "date": "Jan 2019",
+  "sort": "2019-01",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "30th meeting of the [Indian Association for General Relativity and Gravitation (IAGRG)](http://universe.bits-pilani.ac.in/hyderabad/iagrg/iagrg), Hyderabad. Talk on ***Chronology protection problem in modified Kerr-Newman spacetimes***"
+ },
+ {
+  "date": "Jul 2018",
+  "sort": "2018-07",
+  "invited": false,
+  "group": "Contributed Talks and Posters",
+  "text": "[Les Houches Summer School on Gravitational Waves](http://www.lkb.upmc.fr/gravitationalwaves2018/), France. Talk on ***The Chronology protection problem in modified Kerr-Newman spacetimes***"
+ },
+ {
+  "date": "Jul 2018",
+  "sort": "2018-07",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "Talk on ***The Chronology Protection Problem*** in the monthly IUCAA last Friday talks."
+ },
+ {
+  "date": "Jun 2018",
+  "sort": "2018-06",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "A seminar on ***Dynamical Black holes*** in the IUCAA Academic retreat."
+ },
+ {
+  "date": "2018",
+  "sort": "2018-00",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "Talk on ***Dynamical horizons*** in the IUCAA Gravitational Wave Research Group."
+ },
+ {
+  "date": "2018",
+  "sort": "2018-00",
+  "invited": false,
+  "group": "Seminars at IUCAA",
+  "text": "Led a series of talks and discussions on ***Isolated and Dynamical Horizons*** for members of the IUCAA Gravitational Wave Research Group."
+ }
+]

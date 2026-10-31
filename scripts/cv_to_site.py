@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Generate the one-page CV (content/cv/_index.md) from the LaTeX CV.
+"""Generate the one-page CV (content/cv/_index.md) and the homepage talk list
+(data/cv_talks.json) from the LaTeX CV.
 
 The CV (moderncv, github.com/vaishakp/vaishak_cv_v2) is the source. This script
 reads the section files in the order main.tex lists them and writes them as one
 Markdown page, with a contents line at the top and fixed anchors for the
 sections the site menu links to (#publications, #talks, #conferences, ...).
+The talks of sections/talks.tex are also written, newest first, to a data file
+that the homepage's cv-talks block (layouts/_partials/hbx/blocks/) shows.
 
 Edit the CV, then rerun:
 
@@ -24,6 +27,7 @@ disappearing.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -293,6 +297,54 @@ def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -
     return "\n".join(lines) + "\n"
 
 
+MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], start=1)}
+
+
+def date_key(when: str) -> str:
+    """Sort key "YYYY-MM" for CV dates such as "Aug 2026", "Jun-Jul 2025" or "2018"."""
+    year = re.findall(r"(?:19|20)\d\d", when)
+    month = re.match(r"\s*([A-Za-z]{3})", when)
+    m = MONTHS.get(month.group(1).lower(), 0) if month else 0
+    return f"{year[-1] if year else '0000'}-{m:02d}"
+
+
+def talks_data(cv: Path) -> list[dict]:
+    """The talks of sections/talks.tex, newest first (stable within a month)."""
+    talks = []
+    section = subsection = ""
+    for kind, value in parse_blocks((cv / "sections" / "talks.tex").read_text(encoding="utf-8")):
+        if kind == "section":
+            section, subsection = latex_to_md(value), ""
+        elif kind == "subsection":
+            subsection = latex_to_md(value)
+        elif kind == "cvitem":
+            when, body = (latex_to_md(f) for f in value)
+            talks.append({
+                "date": when,
+                "sort": date_key(when),
+                "invited": section.lower().startswith("invited"),
+                "group": subsection or section,
+                "text": body,
+            })
+    return sorted(talks, key=lambda t: t["sort"], reverse=True)
+
+
+def write_if_changed(path: Path, text: str, check: bool) -> bool:
+    """Write text to path unless it is already there; True if it was out of date."""
+    old = path.read_text(encoding="utf-8") if path.exists() else ""
+    if old == text:
+        print(f"{path} is up to date.")
+        return False
+    if check:
+        print(f"{path} is out of date.")
+        return True
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    print(f"updated {path}")
+    return True
+
+
 def skipped(subsection: str, include_in_prep: bool, include_pending: bool) -> bool:
     name = subsection.lower()
     return (name.startswith("in preparation") and not include_in_prep) or (
@@ -312,25 +364,19 @@ def main() -> int:
                         help="also list the CV's 'In preparation' papers")
     parser.add_argument("--include-pending", action="store_true",
                         help="also list the CV's 'Pending' grant applications")
+    parser.add_argument("--talks-data", type=Path, default=Path("data/cv_talks.json"))
     parser.add_argument("--check", action="store_true",
-                        help="exit 1 if the page is out of date, without writing it")
+                        help="exit 1 if an output is out of date, without writing it")
     args = parser.parse_args()
 
-    text = cv_page(args.cv, args.date, args.include_in_prep, args.include_pending)
-    old = args.out.read_text(encoding="utf-8") if args.out.exists() else ""
+    page = cv_page(args.cv, args.date, args.include_in_prep, args.include_pending)
+    talks = json.dumps(talks_data(args.cv), indent=1, ensure_ascii=False) + "\n"
     if unknown_macros:
         print("warning: LaTeX macros left unconverted: " + ", ".join(sorted(unknown_macros)),
               file=sys.stderr)
-    if old == text:
-        print(f"{args.out} is up to date.")
-        return 0
-    if args.check:
-        print(f"{args.out} is out of date.")
-        return 1
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(text, encoding="utf-8")
-    print(f"updated {args.out}")
-    return 0
+    stale = [write_if_changed(args.out, page, args.check),
+             write_if_changed(args.talks_data, talks, args.check)]
+    return 1 if args.check and any(stale) else 0
 
 
 if __name__ == "__main__":

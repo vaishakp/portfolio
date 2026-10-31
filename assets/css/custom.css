@@ -250,3 +250,43 @@ body {
 .powered-by:has([data-hbx="poweredby_brand"]) {
   display: none;
 }
+
+/* Homepage talk list from the CV (layouts/partials/hbx/blocks/cv-talks). */
+.cv-talks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-talks li {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1.5rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  line-height: 1.55;
+}
+
+.cv-talks-date {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.cv-talks-text a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cv-talks-kind {
+  margin-left: 0.4rem;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+@media (max-width: 640px) {
+  .cv-talks li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
