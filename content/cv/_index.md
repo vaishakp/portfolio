@@ -20,8 +20,8 @@ type: page
 
 - **Thesis Title** — [Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation](https://www.vaishakprasad.com/uploads/vaishak_phd_thesis.pdf)
 - **Supervisor** — Prof. Sukanta Bose
-- **Defended** — March 2023
-- **Degree awarded** — 29 March 2023<br>Jawaharlal Nehru University, New Delhi (through IUCAA, Pune)
+- **Defended** — 29 March 2023
+- **Degree awarded** — 6 April 2023<br>Jawaharlal Nehru University, New Delhi (through IUCAA, Pune)
 
 ## Education {#education}
 
@@ -69,7 +69,7 @@ type: page
 
 ### Theses and reports
 
-- **2023** — [Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation](https://www.vaishakprasad.com/uploads/vaishak_phd_thesis.pdf). Ph.D. thesis, Jawaharlal Nehru University (IUCAA, Pune). Supervisor: Prof. Sukanta Bose.
+- **2023** — [Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation](https://www.vaishakprasad.com/uploads/vaishak_phd_thesis.pdf). Ph.D. thesis, Jawaharlal Nehru University (IUCAA, Pune). Supervisor: Prof. Sukanta Bose. Submitted version in [Shodhganga](https://hdl.handle.net/10603/560622).
 - **2017** — [Large Scale Magnetic Fields and the Turbulent Dynamo](https://www.vaishakprasad.com/uploads/vaishak_turbulent_dynamo_report_2017.pdf). Project report, IUCAA-NCRA Graduate School. Supervisor: Prof. Kandaswamy Subramanian.
 - **2014** — [Turbulent Diffusion](https://www.vaishakprasad.com/uploads/vaishak_turbulent_diffusion_report_2014.pdf). Practice School report, BITS Pilani, at IUCAA, Pune.
 

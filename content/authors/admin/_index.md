@@ -55,7 +55,7 @@ past-light-cone:
   - area: PhD in Physics
     institution: IUCAA, Pune, India (degree awarded by Jawaharlal Nehru University)
     date_start: 2016-08-01
-    date_end: 2023-03-29
+    date_end: 2023-04-06
     summary: |
       Thesis on [_Strong Gravity Physics of Dynamical Horizons in Black Hole Mergers and its Imprint in their Gravitational Radiation_](/uploads/vaishak_phd_thesis.pdf). Supervised by Prof. Sukanta Bose.
   - area: Int. M.Sc. (Hons.) Physics
