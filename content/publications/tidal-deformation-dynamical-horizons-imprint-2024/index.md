@@ -39,3 +39,5 @@ links:
 - arXiv: [2109.01193](https://arxiv.org/abs/2109.01193)
 
 I quantify the tidal deformation of dynamical horizons. I relate it to features in the emitted gravitational radiation.
+
+This paper is the first demonstration, in orbiting binary black hole simulations, that the multipole moments of the common horizon decay at the damping rate of the remnant's fundamental quadrupolar quasinormal mode (within 3%).
