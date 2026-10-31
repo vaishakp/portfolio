@@ -1,0 +1,10 @@
+<!-- Visitors who ask their system for reduced motion get the homepage video paused
+     on its poster frame; they can still start it from the visualization page. -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!window.matchMedia || !window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    document.querySelectorAll("video[autoplay]").forEach(function (v) {
+      v.removeAttribute("autoplay"); v.pause(); v.currentTime = 0;
+    });
+  });
+</script>

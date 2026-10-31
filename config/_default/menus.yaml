@@ -10,17 +10,20 @@ main:
   - name: CV
     url: cv/
     weight: 11
+  - name: Research
+    url: research/
+    weight: 12
   - name: Papers
     url: cv/#publications
-    weight: 12
+    weight: 13
   - name: Talks
     url: cv/#talks
-    weight: 13
+    weight: 14
   - name: Conferences
     url: cv/#conferences
-    weight: 14
-  - name: Projects
-    url: projects/
+    weight: 15
+  - name: Software
+    url: software/
     weight: 30
   - name: Visualization
     url: animation/

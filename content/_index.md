@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Full CV
-        url: /uploads/resume.pdf
+        url: /uploads/vaishak_cv.pdf
       headings:
         about: ''
         education: ''
@@ -48,6 +48,16 @@ sections:
         My work connects numerical relativity, black-hole perturbation theory and gravitational-wave data analysis. Recent topics include horizon shear and source multipoles in binary mergers. I also work on black-hole spectroscopy and area-law tests with high signal-to-noise events such as GW250114. Other topics are accelerated time-domain inference and waveform systematics for eccentric and precessing binaries.
 
         I develop parallel and heterogeneous algorithms and data-analysis pipelines for next-generation detectors.
+    design:
+      css_class: research-summary
+      columns: '1'
+  - block: markdown
+    id: teaching
+    content:
+      title: 'Teaching and Mentoring'
+      subtitle: ''
+      text: |-
+        I taught a few lectures of the graduate course on general relativity at Penn State in 2026, and lectured on stochastic sampling at the NP3M Summer School in 2025. I co-mentor five graduate students in the PAX group at Penn State. I have supervised and co-supervised several undergraduate and master's student projects at Penn State, ICTS-TIFR and IUCAA, and tutored at schools on gravitation and gravitational-wave astronomy at ICTS-TIFR. Details are in my [CV](/cv/#teaching).
     design:
       css_class: research-summary
       columns: '1'

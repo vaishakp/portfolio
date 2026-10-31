@@ -260,6 +260,41 @@ def section_files(cv: Path) -> list[Path]:
     return [cv / "sections" / f"{name.removesuffix('.tex')}.tex" for name in names if name not in SKIPPED_FILES]
 
 
+# Public links for the codes in the CV's "Codes developed" section. Codes without
+# an entry (private repositories, SXS-internal code) are listed without a link.
+SOFTWARE_LINKS = {
+    "tdanalysis": [("PyPI", "https://pypi.org/project/tdanalysis/")],
+    "nrhjsurrogate": [("PyPI", "https://pypi.org/project/nrhjsurrogate/"),
+                      ("documentation", "https://psu-edu.github.io/nrhjsurrogate/")],
+    "spectral/spectools": [("PyPI", "https://pypi.org/project/spectools/"),
+                           ("GitHub", "https://github.com/vaishakp/spectral"),
+                           ("documentation", "https://spectools.readthedocs.io/en/latest/")],
+    "waveformtools": [("PyPI", "https://pypi.org/project/waveformtools/"),
+                      ("GitHub", "https://github.com/vaishakp/waveformtools")],
+    "popsampler": [("GitHub", "https://github.com/vaishakp/popsampler")],
+    "pkginstaller": [("GitLab", "https://gitlab.com/vaishakp/pkginstaller")],
+}
+
+
+def software_page(cv: Path, date: str) -> str:
+    """The Software page, from the "Codes developed" section of sections/skills.tex."""
+    lines = [f"---\ntitle: Software\ndate: {date}\ntype: page\n---\n", GENERATED_NOTE, "",
+             "Research codes I have written. Codes with a public release are linked.", ""]
+    section = ""
+    for kind, value in parse_blocks((cv / "sections" / "skills.tex").read_text(encoding="utf-8")):
+        if kind == "section":
+            section = latex_to_md(value)
+        elif kind == "cvitem" and section == "Codes developed":
+            name, description = (latex_to_md(f) for f in value)
+            key = name.replace("\\", "")
+            links = SOFTWARE_LINKS.get(key, [])
+            if any(label == "PyPI" for label, _ in links):
+                description = description.replace(" Released on PyPI.", "")
+            link_text = " · ".join(f"[{label}]({url})" for label, url in links)
+            lines.append(f"- **{key}** — {description}" + (f" {link_text}" if link_text else ""))
+    return "\n".join(lines) + "\n"
+
+
 def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -> str:
     lines = [
         f"---\ntitle: Curriculum Vitae\ndate: {date}\ntype: page\n---\n",
@@ -267,7 +302,7 @@ def cv_page(cv: Path, date: str, include_in_prep: bool, include_pending: bool) -
         "",
         '<p class="cv-contents">'
         + " · ".join(f'<a href="#{anchor}">{name}</a>' for name, anchor in CONTENTS)
-        + ' · <a href="/uploads/resume.pdf"><strong>PDF</strong></a></p>',
+        + ' · <a href="/uploads/vaishak_cv.pdf"><strong>PDF</strong></a></p>',
         "",
     ]
     for path in section_files(cv):
@@ -365,17 +400,20 @@ def main() -> int:
     parser.add_argument("--include-pending", action="store_true",
                         help="also list the CV's 'Pending' grant applications")
     parser.add_argument("--talks-data", type=Path, default=Path("data/cv_talks.json"))
+    parser.add_argument("--software-out", type=Path, default=Path("content/software/_index.md"))
     parser.add_argument("--check", action="store_true",
                         help="exit 1 if an output is out of date, without writing it")
     args = parser.parse_args()
 
     page = cv_page(args.cv, args.date, args.include_in_prep, args.include_pending)
     talks = json.dumps(talks_data(args.cv), indent=1, ensure_ascii=False) + "\n"
+    software = software_page(args.cv, args.date)
     if unknown_macros:
         print("warning: LaTeX macros left unconverted: " + ", ".join(sorted(unknown_macros)),
               file=sys.stderr)
     stale = [write_if_changed(args.out, page, args.check),
-             write_if_changed(args.talks_data, talks, args.check)]
+             write_if_changed(args.talks_data, talks, args.check),
+             write_if_changed(args.software_out, software, args.check)]
     return 1 if args.check and any(stale) else 0
 
 

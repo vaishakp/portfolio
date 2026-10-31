@@ -65,7 +65,7 @@ jobs:
           tex_path="${{ steps.config.outputs.tex_path }}"
           pdf_path="${tex_path%.tex}.pdf"
           mkdir -p static/uploads
-          cp "overleaf-cv/$pdf_path" static/uploads/resume.pdf
+          cp "overleaf-cv/$pdf_path" static/uploads/vaishak_cv.pdf
 
       - name: Create pull request
         if: steps.config.outputs.configured == 'true'
@@ -74,7 +74,7 @@ jobs:
           commit-message: 'chore(cv): sync latest Overleaf CV'
           title: 'Sync latest CV from Overleaf'
           body: |
-            This automated PR compiles the configured Overleaf project and updates `static/uploads/resume.pdf`.
+            This automated PR compiles the configured Overleaf project and updates `static/uploads/vaishak_cv.pdf`.
 
             Required repository settings:
 
