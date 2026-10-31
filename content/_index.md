@@ -40,6 +40,16 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |-
+        <figure class="bbh-float">
+          <a href="/animation/" aria-label="Binary black hole merger animation">
+            <video autoplay muted loop playsinline preload="metadata" poster="/media/bbh/q1a0_b_square_poster.jpg">
+              <source src="/media/bbh/q1a0_b_square720.webm" type="video/webm">
+              <source src="/media/bbh/q1a0_b_square720.mp4" type="video/mp4">
+            </video>
+          </a>
+          <figcaption>Gravitational waves from an equal-mass binary black hole merger, simulated with the Einstein Toolkit. <a href="/animation/">About the animation</a></figcaption>
+        </figure>
+
         I study strong-field gravity in black-hole mergers: how dynamical horizons deform, relax, and leave measurable structure in gravitational waves.
 
         My work connects numerical relativity, black-hole perturbation theory, and gravitational-wave data analysis. Recent themes include horizon shear and source multipoles in binary mergers, black-hole spectroscopy and area-law tests with loud events such as GW250114, accelerated time-domain inference, and waveform systematics for eccentric and precessing binaries.

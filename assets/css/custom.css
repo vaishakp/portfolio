@@ -1,0 +1,52 @@
+/* Merger animation: floated beside the Research text on the homepage, full
+   width on /animation/. The videos are square (homepage) and 16:9 (page). */
+.bbh-float {
+  float: right;
+  width: min(42%, 360px);
+  margin: 0.25rem 0 1rem 1.75rem;
+}
+
+.bbh-float video,
+.bbh-full video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  background: #05070d;
+}
+
+.bbh-float video {
+  border-radius: 50%;
+}
+
+.bbh-float figcaption,
+.bbh-full figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.bbh-float figcaption {
+  text-align: center;
+}
+
+/* The section text must clear the float so the next block starts below it. */
+.research-summary .prose::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.bbh-full {
+  margin: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .bbh-float {
+    float: none;
+    width: 75%;
+    margin: 0 auto 1.5rem;
+  }
+}
