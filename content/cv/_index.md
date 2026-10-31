@@ -154,7 +154,7 @@ type: page
 
 ### Teaching
 
-- **Fall 2026** — Taught several lectures of the graduate course on **general relativity** (Prof. B. S. Sathyaprakash), Pennsylvania State University, and assessed students' assignments.
+- **Fall 2026** — Taught a few lectures of the graduate course on **general relativity** (Prof. B. S. Sathyaprakash), Pennsylvania State University, and assessed students' assignments.
 - **Jun 2025** — Lecturer on Stochastic Sampling, and tutor, for the course on the Geometric Approach to Gravitational Wave Data Analysis (Prof. B. S. Sathyaprakash), [**NP3M Summer School 2025**](https://np3m.org/school_2025.html), Indiana University, IN, USA.
 - **Jul 2024** — Tutor for the course on ultralight boson clouds around black holes (Dr. Nils Siemonsen), [**Summer School on Gravitational Wave Astronomy**](https://icts.res.in/program/gws2024), ICTS-TIFR, Bengaluru.
 - **Oct 2023** — Tutor for Prof. Badri Krishnan's course on Dynamical Horizons, [**IAGRG School on Gravitation and Cosmology**](https://www.icts.res.in/program/IAGRG), ICTS-TIFR, Bengaluru.
