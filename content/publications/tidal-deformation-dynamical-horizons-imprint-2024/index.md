@@ -40,4 +40,4 @@ links:
 
 I quantify the tidal deformation of dynamical horizons. I relate it to features in the emitted gravitational radiation.
 
-This paper shows how the horizons of a binary acquire multipolar deformations (hair) during the inspiral. The common horizon inherits this structure at merger and then loses it by absorbing radiation, its multipole moments decaying at the damping rates of the remnant's quasinormal modes, to within 3% for the dominant mode.
+This paper shows, for the first time, that the horizons of a binary acquire multipolar deformations (hair) during the inspiral, and that these deformations are strongly correlated with the gravitational-wave signal at infinity. The common horizon inherits them at merger and settles to the Kerr state by absorbing gravitational radiation, with quasinormal decay of its multipole moments. The damping rate of the dominant moment agrees with that of the remnant's quasinormal mode to within 3%.

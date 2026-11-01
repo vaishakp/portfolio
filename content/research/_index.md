@@ -22,10 +22,11 @@ spins of the remnant and parent black holes
 
 In collaboration with Anshu Gupta, Sukanta Bose and Badri Krishnan, I defined the tidal deformability
 of a dynamical horizon through its source multipole moments
-([Phys. Rev. D 105, 044019](https://doi.org/10.1103/PhysRevD.105.044019)). I showed how the horizons of a
-binary acquire multipolar deformations (hair) during the inspiral. The common horizon inherits this
-structure at merger and then loses it by absorbing radiation, its multipole moments decaying at the
-damping rates of the remnant's quasi-normal modes
+([Phys. Rev. D 105, 044019](https://doi.org/10.1103/PhysRevD.105.044019)). I was the first to show
+that the horizons of a binary acquire multipolar deformations (hair) during the inspiral, and that
+these deformations are strongly correlated with the gravitational-wave signal at infinity. The common
+horizon inherits them at merger and settles to the Kerr state by absorbing gravitational radiation,
+with quasi-normal decay of its multipole moments
 ([Phys. Rev. D 109, 044033](https://doi.org/10.1103/PhysRevD.109.044033)). In a work led by Yu-Cun Xie, we found that the first common horizon in a generic merger forms with a universal square-root structure
 ([arXiv:2609.11819](https://arxiv.org/abs/2609.11819)).
 
