@@ -21,12 +21,13 @@ summary: A study of inference biases for eccentric, spin-precessing binary black
 abstract: This study evaluates how orbital eccentricity and spin precession can bias GW parameter
   estimation when the recovery model is mismatched. By injecting eccentric signals with a range
   of spin configurations (including precessing NR hybrids) and analyzing them with a quasi-circular
-  precessing-spin model, the authors find appreciable biases in inferred parameters such as chirp
-  mass and the precession parameter χ_p for highly eccentric systems. Model-comparison results
-  favor an eccentric aligned-spin description over a quasi-circular precessing-spin model in relevant
-  cases, motivating practical waveform models that handle eccentricity and precession simultaneously.
+  precessing-spin model, the authors find appreciable biases in inferred parameters such as
+  chirp mass and the precession parameter χ_p for highly eccentric systems. Model-comparison
+  results favor an eccentric aligned-spin description over a quasi-circular precessing-spin
+  model in relevant cases, motivating practical waveform models that handle eccentricity and
+  precession simultaneously.
 featured: false
-publication: Physical Review D 113, 103022 (2026)
+publication: Phys. Rev. D 113, 103022 - Published 12 May, 2026
 doi: 10.1103/jdkc-65lz
 links:
 - name: DOI
