@@ -1,4 +1,8 @@
 <!-- The site is dark only (params.yaml: appearance.mode dark, no theme chooser).
-     Forget a light/dark choice saved by the old toggle, which the theme would
-     otherwise apply ahead of the default. -->
-<script>try { localStorage.removeItem("wc-color-theme"); } catch (e) {}</script>
+     Forget a light/dark choice saved by the old toggle, and apply dark now: the
+     theme reads the saved choice before this hook runs. -->
+<script>
+  try { localStorage.removeItem("wc-color-theme"); } catch (e) {}
+  document.documentElement.classList.add("dark");
+  document.documentElement.style.colorScheme = "dark";
+</script>
