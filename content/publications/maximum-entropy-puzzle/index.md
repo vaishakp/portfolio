@@ -2,29 +2,32 @@
 title: Maximum Entropy Conjecture for Black Hole Mergers
 date: 2026-07-07
 authors:
-  - Monica Rincón-Ramírez
-  - Nathan K. Johnson-McDaniel
-  - Eugenio Bianchi
-  - Ish Gupta
-  - Vaishak Prasad
-  - B. S. Sathyaprakash
+- Monica Rincón-Ramírez
+- Nathan K. Johnson-McDaniel
+- Eugenio Bianchi
+- Ish Gupta
+- Vaishak Prasad
+- B. S. Sathyaprakash
 tags:
-  - Black hole thermodynamics
-  - Numerical relativity
-  - Published
-summary: The remnant of a quasi-circular binary black hole merger is conjectured to be the entropy-maximizing state consistent with the system's Bondi mass and angular momentum.
-abstract: We conjecture that the remnant black hole of a quasi-circular binary black hole merger is
-  the state that maximizes entropy subject to the constraints of Bondi mass and angular momentum.
+- Black hole thermodynamics
+- Numerical relativity
+- Published
+summary: The remnant of a quasi-circular binary black hole merger is conjectured to be the entropy-maximizing
+  state consistent with the system's Bondi mass and angular momentum.
+abstract: We conjecture that the remnant black hole of a quasi-circular binary black hole merger
+  is the state that maximizes entropy subject to the constraints of Bondi mass and angular momentum.
   The conjecture allows the properties of the remnant to be summarized thermodynamically, without
   solving the full Einstein field equations, and is tested against numerical-relativity simulations.
 featured: true
 publication: Physical Review Letters 137, 021406 (2026)
 doi: 10.1103/hvp6-ydbq
 links:
-  - name: DOI
-    url: https://doi.org/10.1103/hvp6-ydbq
-  - name: arXiv
-    url: https://arxiv.org/abs/2601.22388
+- name: DOI
+  url: https://doi.org/10.48550/arXiv.2601.22388
+- name: arXiv
+  url: https://arxiv.org/abs/2601.22388
+- name: PDF
+  url: https://arxiv.org/pdf/2601.22388.pdf
 ---
 
 **Status:** Published

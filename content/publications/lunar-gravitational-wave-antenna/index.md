@@ -5,13 +5,15 @@ authors:
 - P. Ajith et al. (incl. Vaishak Prasad)
 tags:
 - Detector concepts
-summary: Mission studies and science case for a lunar gravitational-wave antenna. Author of the section on tests of general relativity.
+summary: Mission studies and science case for a lunar gravitational-wave antenna. Author of
+  the section on tests of general relativity.
 abstract: LGWA is a proposed array of next-generation inertial sensors on the Moon to measure
-  lunar motion induced by gravitational waves. With sensitivity spanning roughly 1 mHz to 1 Hz,
-  it would bridge the gap between space-based detectors such as LISA and future ground-based observatories
-  like Einstein Telescope or Cosmic Explorer. The paper lays out the mission concept and a comprehensive
-  science case, including multimessenger opportunities and lunar-geophysics science enabled by
-  the same data, and summarizes lunar characterization studies needed to plan the mission.
+  lunar motion induced by gravitational waves. With sensitivity spanning roughly 1 mHz to 1
+  Hz, it would bridge the gap between space-based detectors such as LISA and future ground-based
+  observatories like Einstein Telescope or Cosmic Explorer. The paper lays out the mission concept
+  and a comprehensive science case, including multimessenger opportunities and lunar-geophysics
+  science enabled by the same data, and summarizes lunar characterization studies needed to
+  plan the mission.
 featured: false
 publication: JCAP 01 (2025) 108
 doi: 10.1088/1475-7516/2025/01/108
